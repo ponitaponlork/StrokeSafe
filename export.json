@@ -1,0 +1,5938 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.62.4 2390de5a",
+  "osm3s": {
+    "timestamp_osm_base": "2026-11-23T12:35:21Z",
+    "timestamp_areas_base": "2026-11-23T12:06:50Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 539342709,
+      "lat": 13.5384072,
+      "lon": 103.7314575,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Reul Health Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 539342724,
+      "lat": 13.6457244,
+      "lon": 103.6257034,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Char Chhuk Health Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 539342736,
+      "lat": 13.6839521,
+      "lon": 103.6464844,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Angkor Chum Referral Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 567322744,
+      "lat": 13.3934629,
+      "lon": 103.7354838,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Health Center Samrcngyear"
+      }
+    },
+    {
+      "type": "node",
+      "id": 568954794,
+      "lat": 13.3250769,
+      "lon": 103.8400588,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Pohmeanchey Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 569030649,
+      "lat": 13.2961488,
+      "lon": 103.9987661,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Men Chey Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 569858958,
+      "lat": 13.3576431,
+      "lon": 104.0873693,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Chann Sor Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 569878688,
+      "lat": 13.3549787,
+      "lon": 103.973775,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Hospital of Region 4"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1255805469,
+      "lat": 11.5596737,
+      "lon": 104.9248858,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Raffles Medical"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1637395202,
+      "lat": 11.5576008,
+      "lon": 104.9249475,
+      "tags": {
+        "amenity": "hospital",
+        "designation": "Naga Clinic",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Naga Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1675580882,
+      "lat": 12.8521307,
+      "lon": 102.6093576,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Khemara Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1765857987,
+      "lat": 10.922227,
+      "lon": 105.0241164,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "name": "Kok Thlok Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1973472546,
+      "lat": 11.6380505,
+      "lon": 104.8846507,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Santepheap Clinic",
+        "name:km": "គ្លីនិកសន្តិភាព"
+      }
+    },
+    {
+      "type": "node",
+      "id": 1973472559,
+      "lat": 11.5542901,
+      "lon": 104.9051935,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Visal Sok Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2145554970,
+      "lat": 14.2348705,
+      "lon": 104.0804559,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Anlong Veng Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2145618441,
+      "lat": 14.1885249,
+      "lon": 103.5177582,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Oddar Meanchey Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2197925730,
+      "lat": 13.0940492,
+      "lon": 103.1957308,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Battambang Pediatric Clinic",
+        "opening_hours": "24/7",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2240989792,
+      "lat": 12.3065426,
+      "lon": 103.1067001,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Pra Moy Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2394002459,
+      "lat": 10.6271869,
+      "lon": 103.5224907,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2025-01-29",
+        "healthcare": "hospital",
+        "name": "CT clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2418695297,
+      "lat": 11.5044123,
+      "lon": 104.8915836,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Chamkar Doung Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2591216593,
+      "lat": 11.5327034,
+      "lon": 104.9449709,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Onn Sokunthy Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2630685281,
+      "lat": 12.4595988,
+      "lon": 107.1860219,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Mondulkiri Poly Clinic and Maternity",
+        "phone": "+855 73 5555117;+855 97 2482222;+855 96 8888450;"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2697281716,
+      "lat": 11.5488244,
+      "lon": 104.9257733,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "plastic_surgery",
+        "name": "Vita Longa"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2905174869,
+      "lat": 13.3818085,
+      "lon": 103.8622814,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "addr:postcode": "17000",
+        "addr:street": "Borey Pram Prei (Charming City)",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/britishdoc",
+        "contact:phone": "+855 69 630 344",
+        "contact:website": "http://www.britishkhmerclinic.com",
+        "description:en": "Dr. Ian Ferguson, British Doctor;Urgent call +0974204217",
+        "name": "The British-Khmer Clinic",
+        "name:km": "គ្លីនិកខ្មែរ-អង់គ្លេស",
+        "opening_hours": "Mo-Fr 09:00-12:00,14:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2909146053,
+      "lat": 13.3598001,
+      "lon": 103.8507775,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2947427314,
+      "lat": 11.4649727,
+      "lon": 104.983477,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Praek Thmei Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2982300410,
+      "lat": 11.5807671,
+      "lon": 104.9019071,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Khema Clinic & Maternity"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2982306632,
+      "lat": 11.576901,
+      "lon": 104.8982892,
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name:en": "Chann Sokhom Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 2990393136,
+      "lat": 11.5923899,
+      "lon": 104.8994372,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3045809765,
+      "lat": 13.0991613,
+      "lon": 103.2077587,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-02-25",
+        "name": "Handa medical center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162760863,
+      "lat": 13.5859339,
+      "lon": 102.9714478,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Clinic Pinit ning Pjijabal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162761063,
+      "lat": 13.5871922,
+      "lon": 102.9712062,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162763269,
+      "lat": 13.5859985,
+      "lon": 102.9733568,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Clinic Sereysophorn"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162763270,
+      "lat": 13.5911982,
+      "lon": 102.974057,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162763962,
+      "lat": 13.5892207,
+      "lon": 102.9747032,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Makalin Clinik skin care"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162763967,
+      "lat": 13.5895576,
+      "lon": 102.9744089,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Sereysophorn Referral Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3162763968,
+      "lat": 13.5893683,
+      "lon": 102.9700189,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Sok Pheap Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3164663062,
+      "lat": 13.5979259,
+      "lon": 102.9700957,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Neakpoan Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3210036356,
+      "lat": 10.6270877,
+      "lon": 104.0258021,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3294769510,
+      "lat": 13.3646317,
+      "lon": 103.8530679,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3382779976,
+      "lat": 13.3528898,
+      "lon": 103.8676662,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "addr:street": "Loeuk Tanoeuy Road",
+        "amenity": "clinic",
+        "name": "Neak Tep Clinic",
+        "name:km": "គ្លីនិកនាគទេព"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3414215052,
+      "lat": 12.4765084,
+      "lon": 106.0207522,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Rokakandal Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3626919288,
+      "lat": 11.0727878,
+      "lon": 104.8175809,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Trea Health Center",
+        "name:km": "មណ្ឌលសុខភាពឃុំទ្រា"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3905842214,
+      "lat": 10.9613532,
+      "lon": 105.1179071,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3931749941,
+      "lat": 12.6863213,
+      "lon": 106.0179581,
+      "tags": {
+        "amenity": "hospital",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 3933124441,
+      "lat": 12.2978044,
+      "lon": 106.0358168,
+      "tags": {
+        "amenity": "hospital",
+        "source": "survey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4118322389,
+      "lat": 11.5832373,
+      "lon": 104.9167705,
+      "tags": {
+        "addr:housenumber": "#24B, Street 2B",
+        "addr:postcode": "12401",
+        "addr:street": "Borey Lim Chheanghak Chamkar Doung",
+        "amenity": "hospital",
+        "email": "info@balegacorp.com",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name": "Praram 9 Hospital Cambodia Office",
+        "name:en": "Balega Corp Ltd",
+        "opening_hours": "Mo-Su 08:00-18:00",
+        "phone": "077857788",
+        "website": "http://www.balegacorp.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4142664190,
+      "lat": 11.55912,
+      "lon": 104.9189448,
+      "tags": {
+        "addr:housenumber": "39",
+        "addr:street": "Street 105",
+        "amenity": "hospital",
+        "email": "techheng@yahoo.com",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "name": "Apsara Phnom Penh Hospital",
+        "opening_hours": "24/7",
+        "phone": "089588914"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4154699489,
+      "lat": 13.7480704,
+      "lon": 107.2489556,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Kechong HC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4154699589,
+      "lat": 13.7477456,
+      "lon": 107.2498769,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Kechong HC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4155916937,
+      "lat": 13.0920389,
+      "lon": 103.2028684,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-03-07",
+        "internet_access": "wlan",
+        "name": "Battambang Laboratory",
+        "opening_hours": "Mo-Su 07:00-19:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4173895720,
+      "lat": 11.5543528,
+      "lon": 104.9290601,
+      "tags": {
+        "addr:housenumber": "126",
+        "addr:street": "Preah Norodom Blvd (St: 41)",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Praram 9 Hospital Cambodia Office",
+        "opening_hours": "Mo-Sa 08:08-17:08",
+        "phone": "077857788"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4185836529,
+      "lat": 11.4843866,
+      "lon": 104.7789814,
+      "tags": {
+        "amenity": "hospital",
+        "name": "ពេទ្យព្យាបាលសសៃ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4237035291,
+      "lat": 11.56816,
+      "lon": 104.9064163,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "គ្លីនិកធ្មេញ រាជធានី",
+        "name:en": "Reach Theany Dental Clinic",
+        "name:km": "គ្លីនិកធ្មេញ រាជធានី"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4237178599,
+      "lat": 11.5542568,
+      "lon": 104.9051611,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chan Reah Dental Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4247760791,
+      "lat": 13.8695774,
+      "lon": 104.8275426,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Takong Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4258604591,
+      "lat": 10.6183911,
+      "lon": 103.5294824,
+      "tags": {
+        "addr:street": "Ekareach Street",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name": "Sihanoukville International Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4267508189,
+      "lat": 11.5321691,
+      "lon": 104.8683172,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Ekreach Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4269556606,
+      "lat": 11.5316661,
+      "lon": 104.8609767,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4280991095,
+      "lat": 11.4834831,
+      "lon": 105.324683,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Prey Veng Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4309442589,
+      "lat": 11.4642234,
+      "lon": 104.8373318,
+      "tags": {
+        "amenity": "hospital",
+        "name": "prey veng"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4330629392,
+      "lat": 11.5655399,
+      "lon": 104.9247383,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Meng Rutnin Eye Specialist"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4358611889,
+      "lat": 11.565101,
+      "lon": 104.9078602,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Riiac Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4367951293,
+      "lat": 11.5958359,
+      "lon": 104.9182879,
+      "tags": {
+        "addr:housenumber": "13A",
+        "addr:postcode": "12104",
+        "addr:street": "National Highway 5",
+        "amenity": "hospital",
+        "email": "info@lengchhayclinic.com",
+        "internet_access": "wlan",
+        "name": "Leng Chhay Clinic",
+        "name:en": "Leng Chhay Clinic",
+        "name:km": "គ្លីនិកសន្លាក់ឆ្អឹង",
+        "opening_hours": "Mo-Su 06:00-08:00, 16:00-19:00",
+        "phone": "+85592222426",
+        "website": "http://www.lengchhayclinic.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4402034389,
+      "lat": 12.1126996,
+      "lon": 106.887151,
+      "tags": {
+        "amenity": "clinic",
+        "name": "San Vichet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4433022893,
+      "lat": 11.5586245,
+      "lon": 104.8402609,
+      "tags": {
+        "addr:housenumber": "11B4",
+        "addr:street": "20k",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "name:en": "Vichetra",
+        "name:km": "វិចិត្រា",
+        "phone": "0965555770"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4461607264,
+      "lat": 11.5707968,
+      "lon": 104.9289489,
+      "tags": {
+        "addr:housenumber": "Dr. Keo Vanna (Nose & Mouth)",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Dr. Keo Vanna (Nose & Mouth)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4472294392,
+      "lat": 11.5748301,
+      "lon": 104.8944704,
+      "tags": {
+        "addr:housenumber": "39B",
+        "addr:postcode": "01254",
+        "addr:street": "ផ្លូវ ៥៩២",
+        "amenity": "hospital",
+        "email": "ganoexcelcambodia@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "GANO EXCEL HQ",
+        "opening_hours": "Mo-Su 21:00-07:00",
+        "phone": "078747555",
+        "website": "https://www.ganoexcelcambodia.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4473382052,
+      "lat": 11.5773313,
+      "lon": 104.9016461,
+      "tags": {
+        "addr:housenumber": "17",
+        "addr:street": "Street 566",
+        "amenity": "clinic",
+        "name": "New World Medical Centre"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4523622089,
+      "lat": 13.3544509,
+      "lon": 103.8698072,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "amenity": "clinic",
+        "name:en": "Neak Rep Clinic",
+        "name:km": "គ្លីនិកនាគរាជ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4536810091,
+      "lat": 11.5633079,
+      "lon": 104.9061078,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Orthopedic&Traumatology"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4553286590,
+      "lat": 11.5610275,
+      "lon": 104.910923,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4600874789,
+      "lat": 11.5853038,
+      "lon": 104.9012287,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Chanry Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4603422390,
+      "lat": 11.9843686,
+      "lon": 105.4583201,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4617810489,
+      "lat": 11.545023,
+      "lon": 104.909866,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "ICU hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682789527,
+      "lat": 13.0742365,
+      "lon": 107.0405877,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Koh Nheaek Health Center",
+        "name:km": "មណ្ឌលសុខភាពកោះញែក"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682789534,
+      "lat": 13.0772418,
+      "lon": 107.0406373,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Run Ha",
+        "name:km": "រុន ហា"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4682789549,
+      "lat": 12.9995365,
+      "lon": 107.0180786,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Tuol American Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4685754668,
+      "lat": 11.5103847,
+      "lon": 105.052086,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Kien Svay Operational District Office",
+        "name:km": "ការិយាល័យសុខាភិបាលស្រុកប្រតិបត្តិ កៀនស្វាយ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4688585608,
+      "lat": 11.2913549,
+      "lon": 104.8442358,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-02-18",
+        "name": "Kandoeng Health Center",
+        "name:km": "មណ្ឌលសុខភាពកណ្ដឹង"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4688585624,
+      "lat": 11.247803,
+      "lon": 104.8145335,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Bati Referral Hospital",
+        "name:km": "មន្ទីរពេទ្យបង្អែកបាទី"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689313552,
+      "lat": 10.8089573,
+      "lon": 104.6557267,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Angk Phnom Touch Health Center",
+        "name:km": "មណ្ឌលសុខភាពអង្គភ្នំតូច"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689313562,
+      "lat": 10.6827265,
+      "lon": 104.9718396,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Prey Yuthka Health Center",
+        "name:km": "មណ្ឌលសុខភាពព្រៃយុថ្កា"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4689949845,
+      "lat": 10.7362975,
+      "lon": 104.9257534,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Krapum Chhouk Health Center",
+        "name:km": "មណ្ឌលសុខភាព ក្រពុំឈូក"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4690279989,
+      "lat": 10.6288641,
+      "lon": 103.5188367,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4693435589,
+      "lat": 13.0905956,
+      "lon": 103.2131793,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Hope if blind seeing Hand Massage"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4695904695,
+      "lat": 12.7110136,
+      "lon": 104.8872438,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Cambodian Red Cross"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4704790390,
+      "lat": 10.788207,
+      "lon": 104.3529108,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Village Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4704820390,
+      "lat": 11.2072618,
+      "lon": 104.5821836,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Village Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4707778193,
+      "lat": 11.5596864,
+      "lon": 104.917489,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Khum San's Hospital",
+        "name:en": "khum San's Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4718609790,
+      "lat": 13.3700643,
+      "lon": 103.8558419,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "The Lake Clinic Cambodia",
+        "name:fr": "The Lake Clinic Cambodia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4718609791,
+      "lat": 13.3574729,
+      "lon": 103.8538813,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Khmer China Clinic",
+        "name:fr": "Khmer China Clinic",
+        "name:km": "គ្លីនិកខ្មែរចិន"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4722721973,
+      "lat": 11.5945655,
+      "lon": 104.9088253,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4727703545,
+      "lat": 11.6623652,
+      "lon": 104.744413,
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព ម្កាក់",
+        "name:en": "Makak Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4739037921,
+      "lat": 11.5484446,
+      "lon": 104.9181286,
+      "tags": {
+        "addr:housenumber": "70",
+        "addr:postcode": "855",
+        "addr:street": "ផ្លូវ ១១៣",
+        "amenity": "clinic",
+        "name:en": "Tuol Sleng Cabinet Médical",
+        "phone": "88517512504",
+        "website": "https://www.facebook.com/164561210721634/photos/a.164562494054839.1073741826.164561210721634/166618707182551/?type=3"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4754065728,
+      "lat": 13.3473672,
+      "lon": 103.9884084,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Red Cross"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4766078549,
+      "lat": 11.4789257,
+      "lon": 104.9629826,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mercy Medical Center",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4770395822,
+      "lat": 11.5568273,
+      "lon": 104.9250713,
+      "tags": {
+        "amenity": "clinic",
+        "email": "tansokun@yahoo.com",
+        "healthcare": "clinic",
+        "name": "La Santé Medical Center",
+        "name:en": "La Santé Medical Center",
+        "name:fr": "La Santé Médical Center",
+        "phone": "078336666"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4790957124,
+      "lat": 13.0987143,
+      "lon": 103.1955577,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Sovann Polyclinic",
+        "opening_hours": "24/7",
+        "website": "https://www.sovannclinic.com/",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4807216184,
+      "lat": 11.5695909,
+      "lon": 104.9036795,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Women-Baby's Center ANNA"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4816998321,
+      "lat": 11.9060704,
+      "lon": 105.2793647,
+      "tags": {
+        "addr:street": "ព្រែនតានួង",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "សួន ធឿន"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4820434521,
+      "lat": 11.5674784,
+      "lon": 104.91323,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Eav Kiry clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4838486522,
+      "lat": 10.6196252,
+      "lon": 103.5291466,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Penh chet Dental Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4839310731,
+      "lat": 10.6183926,
+      "lon": 103.5284029,
+      "tags": {
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name:en": "Sihanoukville international clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4841595722,
+      "lat": 13.354854,
+      "lon": 103.8508303,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "ink lab",
+        "name:km": "មន្ទីរពិសោធន៍ទឹកថ្នាំ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4868838026,
+      "lat": 13.3082964,
+      "lon": 105.0017683,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4869633023,
+      "lat": 12.8264348,
+      "lon": 104.9439551,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Chey Health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4871274123,
+      "lat": 12.8079499,
+      "lon": 104.7436737,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Sankor Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4871274124,
+      "lat": 12.9314996,
+      "lon": 104.5783733,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Clinic Somrith Visal"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4873499523,
+      "lat": 13.0373036,
+      "lon": 104.5097147,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Pro Ley Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4873960022,
+      "lat": 11.5556802,
+      "lon": 104.908039,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Mercy Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4874269121,
+      "lat": 13.1492307,
+      "lon": 104.2900841,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Korkthlo Krom Health Center\nមណ្ឌលសុខភាពគោកធ្លកក្រោម"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4887026625,
+      "lat": 13.4651121,
+      "lon": 103.012752,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Oprasat Health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4907542996,
+      "lat": 10.7949541,
+      "lon": 104.8169245,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4939442321,
+      "lat": 11.5637393,
+      "lon": 104.917609,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Bon Sokkha",
+        "name:km": "ប៊ុន សុខគា"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4945206114,
+      "lat": 11.5777422,
+      "lon": 104.92221,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "វេជ្ជបណ្ឌិត លន់ សុខុន",
+        "name:en": "Doctor Lon Sokhon",
+        "name:es": "Doctor Lon Sokhón"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4946468323,
+      "lat": 11.9911657,
+      "lon": 105.4622485,
+      "tags": {
+        "addr:postcode": "855",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name": "Thida Clinic and Maternity",
+        "opening_hours": "24/7",
+        "operator": "Doctor Chap Chanthida and Doctor Lon Chanraksmey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4949282128,
+      "lat": 11.5486867,
+      "lon": 104.9244173,
+      "tags": {
+        "addr:housenumber": "238",
+        "addr:postcode": "12302",
+        "addr:street": "ផ្លូវ ត្រសក់ផ្អែម (៦៣)",
+        "amenity": "clinic",
+        "email": "bc.skinclinic@yahoo.com",
+        "healthcare": "clinic",
+        "internet_access": "wlan",
+        "name": "BC Skin Clinic",
+        "opening_hours": "Mo-Sa 08:30-19:00; Su 08:30-12:00",
+        "operator": "Dr. Yin Vuthy",
+        "operator:type": "private",
+        "phone": "+85578844777",
+        "shop": "cosmetics",
+        "website": "http://www.facebook.com/bcskinclinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4949858822,
+      "lat": 11.5697344,
+      "lon": 104.9056123,
+      "tags": {
+        "addr:housenumber": "8A",
+        "addr:street": "ផ្លូវ ១១២",
+        "amenity": "clinic",
+        "email": "info@essenceofhealth.asia",
+        "internet_access": "wlan",
+        "name:en": "essence of health",
+        "name:fr": "essence of health",
+        "opening_hours": "Mo-Sa 08:00-11:30, 14:00-17:00",
+        "phone": "+855 889 235 306",
+        "website": "https://essenceofhealth.asia/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4958069921,
+      "lat": 11.5630588,
+      "lon": 104.9135945,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "វិសាខា"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4983978223,
+      "lat": 11.524939,
+      "lon": 104.8807468,
+      "tags": {
+        "addr:housenumber": "24B",
+        "addr:postcode": "12401",
+        "addr:street": "Street 2A",
+        "amenity": "hospital",
+        "email": "praram9cambodia@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Praram 9 Hostpital Cambodia Office",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "phone": "0236660888"
+      }
+    },
+    {
+      "type": "node",
+      "id": 4991729250,
+      "lat": 13.056678,
+      "lon": 103.1948732,
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព វត្តគរ",
+        "name:en": "Voat Kor Health Center",
+        "name:es": "Centro de Salud Vóat Ko"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5001479421,
+      "lat": 11.6133081,
+      "lon": 104.9158177,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5008841924,
+      "lat": 11.6159313,
+      "lon": 104.9148029,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5038063521,
+      "lat": 11.5665863,
+      "lon": 104.8938191,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Dela",
+        "opening_hours": "24/7"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5057809922,
+      "lat": 11.8300343,
+      "lon": 106.1797232,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Memot"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5057809923,
+      "lat": 11.7866571,
+      "lon": 106.119606,
+      "tags": {
+        "addr:street": "ផ្លូវជាតិលេខ៧",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name:en": "Em Chan's Home"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5059057927,
+      "lat": 13.3660278,
+      "lon": 103.8520968,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "addr:housenumber": "777",
+        "addr:street": "National Highway 6",
+        "amenity": "hospital",
+        "name": "Siem Reap Clinic",
+        "name:en": "Siem Reap Clinic",
+        "name:km": "គ្លីនិកខេត្តសៀមរាប"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5082025291,
+      "lat": 11.0672164,
+      "lon": 104.5917258,
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព ព្រៃស្បាត",
+        "name:en": "Prey Sbat Health Centre",
+        "name:es": "Centro de Salud de Prey Sbat"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5089150229,
+      "lat": 10.7090674,
+      "lon": 103.8187831,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5108737722,
+      "lat": 11.5630617,
+      "lon": 104.8748195,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មណ្ឌលសុខភាពទឹកថ្លា",
+        "name:en": "Toek Thla Health Center",
+        "name:fr": "Toek Thla Health Center",
+        "name:km": "មណ្ឌលសុខភាពទឹកថ្លា"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5143391121,
+      "lat": 11.6010992,
+      "lon": 104.9043925,
+      "tags": {
+        "amenity": "hospital",
+        "name": "ផ្ទះពេទ្យទួលសង្កែ",
+        "name:en": "Toul Sangke Hospital",
+        "name:km": "ផ្ទះពេទ្យទួលសង្កែ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5148748821,
+      "lat": 11.6034967,
+      "lon": 104.9060698,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Doctor Toul Sangke",
+        "name:km": "បណ្ឌិត ទួលសង្កែ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5150070918,
+      "lat": 11.5442492,
+      "lon": 104.9008054,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:country": "KH",
+        "addr:housenumber": "356",
+        "addr:street": "Yothapol Khemarak Phoumin Boulevard",
+        "amenity": "clinic",
+        "name": "Clinic KHUON Viseth",
+        "phone": "+855 070612112",
+        "website": "https://www.clinickhuonviseth.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5200072821,
+      "lat": 10.7743943,
+      "lon": 103.7321605,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "rehabilitaion center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5215799221,
+      "lat": 12.4921282,
+      "lon": 106.0192124,
+      "tags": {
+        "addr:street": "Rue No.2",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Phsar Chhnang Clinic 2"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5219255921,
+      "lat": 13.3770704,
+      "lon": 103.8660392,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "British Khmer Clinic",
+        "name:km": "គ្លីនិកខ្មែរអង់គ្លេស"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5222544521,
+      "lat": 11.5593014,
+      "lon": 104.9245149,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Sihanouk Hospital Center Of HOPE"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5229409921,
+      "lat": 11.5300503,
+      "lon": 104.9157937,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Vissa Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5268320821,
+      "lat": 11.560511,
+      "lon": 104.8883315,
+      "tags": {
+        "addr:postcode": "12102",
+        "addr:street": "Phlov Lum",
+        "amenity": "clinic",
+        "email": "Reasey.md@hotmail.com",
+        "healthcare": "clinic",
+        "name": "Dermatology and Aesthetic Medical Clinic",
+        "name:en": "Dermatology and Aesthetic Medical Clinic",
+        "opening_hours": "Mo-Sa 09:00-18:00",
+        "operator": "Dr. Sreng, Reasey",
+        "phone": "023888848"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5274585664,
+      "lat": 11.5490058,
+      "lon": 104.9161806,
+      "tags": {
+        "addr:city": "សង្កាត់បឹងកេងកងទី ៣",
+        "addr:housenumber": "134",
+        "addr:postcode": "12304",
+        "addr:street": "ផ្លូវ ១៤៣",
+        "amenity": "hospital",
+        "description": "មន្ទីរ​ពហុ​ព្យាបាល​ និងសម្ភពសំពៅ​មាស ជាមន្ទីរពេទ្យដែលមានជំនាញច្បាស់លាស់ក្នុងការព្យាបាល ជំងឺតំរងនោម គ្រួសតំរងនោម ជំងឺក្រពេញ្ញប្រូស្តេត គ្រួសប្រម៉ាត់ ក្លនល្លូន ដំុគីស ពកក ជំងឺរលាកខ្នែងពោះវៀន ជំងឺវះកាត់ទូទៅ ជំងឺទូទៅ សម្ភព ឆ្លុះអេកូ4D និង ថតកាំរស្មី X-Ray។ ",
+        "email": "sampeomeas@gmail.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Sampeo Meas Clinic",
+        "name:en": "Sampeo Meas Polyclinic and Maternity",
+        "name:fr": "Sampeo Meas Polyclinique et Maternité",
+        "name:km": "មន្ទីរពហុព្យាបាល​ និងសម្ភពសំពៅមាស",
+        "phone": "+855 12825066"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5276935423,
+      "lat": 11.5592652,
+      "lon": 104.9244092,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Hope"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5293729621,
+      "lat": 12.855188,
+      "lon": 102.6104831,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5305696426,
+      "lat": 13.3438445,
+      "lon": 103.8470553,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Krankenhaus"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5312210421,
+      "lat": 11.580517,
+      "lon": 104.8930164,
+      "tags": {
+        "addr:housenumber": "80-82",
+        "addr:postcode": "12152",
+        "addr:street": "ផ្លូវ ៥៦៦",
+        "amenity": "hospital",
+        "email": "weygandth@yahoo.com",
+        "internet_access": "wlan",
+        "name": "មន្ទីរពហុព្យាបាល ចិត្រា និងសម្ភព ហ្ស៊ូលី",
+        "name:en": "Chetra Polyclinic and Julie Maternity",
+        "phone": "011506090"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5371678321,
+      "lat": 11.5673157,
+      "lon": 104.9045278,
+      "tags": {
+        "addr:housenumber": "#413E0, St 128",
+        "addr:street": "មហាវិថី កម្ពុជាក្រោម (១២៨)",
+        "amenity": "clinic",
+        "email": "justice.dent72@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "Chhunly Dental Clinic",
+        "opening_hours": "24/7",
+        "operator": "Chhunly",
+        "phone": "011222170"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5398202823,
+      "lat": 13.361033,
+      "lon": 103.861085,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Dr. Kong",
+        "name:fr": "Dr. Kong",
+        "name:km": "បណ្ឌិត គង់"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5425752034,
+      "lat": 11.5543276,
+      "lon": 104.9172675,
+      "tags": {
+        "addr:street": "ផ្លូវ ១១៧",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "ពេទ្យខេមរ៉ា",
+        "name:en": "Khemara Pediatricians Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5428529424,
+      "lat": 12.871813,
+      "lon": 102.58563,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "O Chra health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5430442321,
+      "lat": 12.8891443,
+      "lon": 102.5837529,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5433384531,
+      "lat": 13.4431471,
+      "lon": 103.9426501,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Preah Dak Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5459027821,
+      "lat": 11.5249262,
+      "lon": 104.8798572,
+      "tags": {
+        "addr:housenumber": "8B",
+        "addr:street": "Street 2",
+        "amenity": "clinic",
+        "description:km": "បន្ទប់ពិគ្រោះពិនិត្យនិងព្យាបាលជំងឺទូទៅ - ពិនិត្យពិគ្រោះនិងព្យាបាលជំងឺទូទៅ",
+        "name:km": "វេជ្ជ.អៀម នារតី",
+        "operator": "វេជ្ជ.អៀម នារតី",
+        "phone": "070826678"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5481866121,
+      "lat": 13.072987,
+      "lon": 102.72622,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Phnom Preal HC"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5508501824,
+      "lat": 11.3627146,
+      "lon": 104.8704883,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Boeng Khyang Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5509985321,
+      "lat": 11.6268161,
+      "lon": 104.9245094,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "គ្លីនិក​ប៉ៃលិន​",
+        "name:en": "Clinic Pailin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5513031435,
+      "lat": 14.3781415,
+      "lon": 104.6696158,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យទាហាន"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5515216222,
+      "lat": 11.5917952,
+      "lon": 104.8979811,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "មន្ទីរសំរាកព្យាបាលនិងសម្ភព ហ្សាកាលីន",
+        "name:en": "Zakalin Clinic",
+        "name:km": "មន្ទីរសំរាកព្យាបាលនិងសម្ភព ហ្សាកាលីន"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5515536221,
+      "lat": 13.4299969,
+      "lon": 102.377703,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Sampov Loun OD"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5539106621,
+      "lat": 10.6120197,
+      "lon": 104.1823354,
+      "tags": {
+        "addr:street": "Street 720",
+        "amenity": "clinic",
+        "name:en": "Somphop Odampanha Clinic",
+        "phone": "012272961"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5542106603,
+      "lat": 11.5909034,
+      "lon": 104.909429,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "បន្ទប់ពិគ្រោះ និង ព្យាបាលជំងឺ ស្រីនាថ",
+        "name:en": "Sreyneath",
+        "name:es": "Consultorio Sreyníet",
+        "name:km": "បន្ទប់ពិគ្រោះ និង ព្យាបាលជំងឺ ស្រីនាថ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5547200944,
+      "lat": 10.6589292,
+      "lon": 104.2026893,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មណ្ឌលសុខភាព ព្រៃឃ្មុំ",
+        "name:en": "Prey Khmum Health Center",
+        "name:es": "Centro de Salud Prey Khmum",
+        "name:km": "មណ្ឌលសុខភាព ព្រៃឃ្មុំ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5548093445,
+      "lat": 11.5534279,
+      "lon": 104.9258841,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Khema International Polyclinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5581136121,
+      "lat": 11.5786425,
+      "lon": 104.8376863,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:housenumber": "G08",
+        "addr:street": "MahaG",
+        "amenity": "clinic",
+        "email": "khunpengan@yahoo.com",
+        "healthcare": "clinic",
+        "healthcare:speciality": "infectious_diseases;paediatrics",
+        "internet_access": "wlan",
+        "name": "ការប្រឹក្សាផ្នែកវេជ្ជសាស្រ្ត- លោកវេជ្ជបណ្ឌិត ឃុន ប៉េងអាន",
+        "name:en": "Medical consultation- Dr. Khun Peng An",
+        "name:km": "ការប្រឹក្សាផ្នែកវេជ្ជសាស្រ្ត- លោកវេជ្ជបណ្ឌិត ឃុន ប៉េងអាន",
+        "opening_hours": "24/7",
+        "operator": "Peng An Khun",
+        "website": "https://www.linkedin.com/in/khunpengan/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5596062321,
+      "lat": 11.5529926,
+      "lon": 104.9071908,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "K1985 Va Vanthy Echo",
+        "name:en": "K1985 Va Vanthy Echo"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5606214122,
+      "lat": 11.5835884,
+      "lon": 104.9090601,
+      "tags": {
+        "amenity": "clinic",
+        "description": "Ear Nose Throat",
+        "healthcare": "clinic",
+        "name": "Sok Koung Clinic",
+        "name:en": "Sok Koung Cinic",
+        "name:km": "ឯកទេស​ ត្រចៀក​ ច្រមុះ​ បំពង់ក",
+        "opening_hours": "Mo-Fr 13:00-18:00; Sa 07:00-12:00, 14:00-17:00; Su 07:00-12:00",
+        "phone": "010360096"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5662646322,
+      "lat": 11.5794,
+      "lon": 104.8922,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "ផ្លូវ ៥៧០",
+        "amenity": "clinic",
+        "email": "kni-clinic@kni-pp.com",
+        "name": "មន្ទីរ​សំរាក​ព្យាបាល​ គីតាហារ៉ា​ ជប៉ុន​",
+        "name:en": "Kitahara Japan Clinic",
+        "name:ja": "北原日本クリニック",
+        "name:km": "មន្ទីរ​សំរាក​ព្យាបាល​ គីតាហារ៉ា​ ជប៉ុន​",
+        "phone": "+855-89-742-100",
+        "website": "http://www.kni-pp.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5748858421,
+      "lat": 11.5678344,
+      "lon": 104.9155436,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "DUMEX dental imaging center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5803618953,
+      "lat": 14.2178472,
+      "lon": 104.9433054,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "មន្ទីពេទ្យបង្អែកស្រុកជាំក្សាន្ត Choam khsan Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5858995785,
+      "lat": 11.5618136,
+      "lon": 104.8803211,
+      "tags": {
+        "addr:housenumber": "N11",
+        "addr:postcode": "12000",
+        "addr:street": "ផ្លូវលំ",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name:en": "MasterLab medical analysis laboratory",
+        "opening_hours": "Mo-Su 07:00-16:00",
+        "phone": "+855962222567"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5901809385,
+      "lat": 11.528691,
+      "lon": 104.9176869,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "ពេទ្យសរសៃ USA",
+        "name:km": "ពេទ្យសរសៃយូអេសអេ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5912954785,
+      "lat": 11.5818477,
+      "lon": 104.8921684,
+      "tags": {
+        "addr:housenumber": "96",
+        "addr:street": "ផ្លូវ ៥៦៦",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "មណ្ឌល​វេជ្ជសាស្ត្រ​ ដេវ៉ាល់ដា​",
+        "name:en": "Devalda Medical Center",
+        "name:km": "មណ្ឌល​វេជ្ជសាស្ត្រ​ ដេវ៉ាល់ដា​"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5937006985,
+      "lat": 13.0636747,
+      "lon": 103.2077798,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Odambang Muoy Healy Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5937007585,
+      "lat": 13.0375289,
+      "lon": 103.2015875,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Wat Tamim Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5992425285,
+      "lat": 12.5708582,
+      "lon": 102.7396266,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Chork Rokar Health Center",
+        "opening_hours": "Mo-Su 07:00-17:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5992450185,
+      "lat": 12.6305652,
+      "lon": 102.8621582,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Ta Sanh Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 5995153885,
+      "lat": 11.5667649,
+      "lon": 104.9143871,
+      "tags": {
+        "addr:street": "ផ្លូវ ១៣៩",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Clinic Sokret"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6003772964,
+      "lat": 13.9525413,
+      "lon": 103.5741111,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Chong Kal Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6045818889,
+      "lat": 11.593793,
+      "lon": 104.9115392,
+      "tags": {
+        "addr:housenumber": "333A",
+        "addr:street": "ផ្លូវ ៩០៧",
+        "amenity": "clinic",
+        "name:en": "Toulsangke Clinic",
+        "name:km": "គ្លីនិកទួលសង្កែ",
+        "opening_hours": "24/7",
+        "phone": "069969678"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6068336486,
+      "lat": 11.988621,
+      "lon": 105.4650505,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Maternity Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6078560086,
+      "lat": 11.59393,
+      "lon": 104.8827,
+      "tags": {
+        "amenity": "clinic",
+        "name": "មន្ទីរ​សំរាក​ព្យាបាល​ឯកទេស​ឆ្អឹង​ ស៊ិក​ ធីរៈ",
+        "name:en": "​Bone and Joint Clinic Dr Sik Thireak  (AEON 2)"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6078571786,
+      "lat": 11.594,
+      "lon": 104.8827,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Ear Nose Throat Audiology Center - Dr Yi In Thy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6109070321,
+      "lat": 11.58343,
+      "lon": 104.9085537,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Vattanak Clinic",
+        "name:en": "Vattanak Clinic",
+        "name:km": "វឌ្ឍន គ្លីនិក"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6111233385,
+      "lat": 11.9045334,
+      "lon": 105.6617591,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Preah Norodam Sihanouk Tbong Khmum Referral Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6118873086,
+      "lat": 11.9891007,
+      "lon": 105.4636097,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Clinic 115"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6118901185,
+      "lat": 11.9875916,
+      "lon": 105.4645188,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Sam Aun Sipha Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6125019653,
+      "lat": 11.5612494,
+      "lon": 104.9265963,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Nairel Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6125019654,
+      "lat": 11.5599495,
+      "lon": 104.9269089,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "AMED clinic anesthetic and anti-aging"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6132509990,
+      "lat": 11.9906423,
+      "lon": 105.4614698,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Maternity"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6133966987,
+      "lat": 11.9917947,
+      "lon": 105.4590081,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Maternity"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6134002285,
+      "lat": 11.9910543,
+      "lon": 105.4607938,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6137103287,
+      "lat": 11.9878612,
+      "lon": 105.4628592,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6137113385,
+      "lat": 11.9876777,
+      "lon": 105.4627305,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Laboratory Neakpoan Thmey"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6137505787,
+      "lat": 11.987929,
+      "lon": 105.4647293,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Keo Vannak Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6140019087,
+      "lat": 11.9915574,
+      "lon": 105.4594615,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6141664785,
+      "lat": 13.3061427,
+      "lon": 102.6134486,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Buor Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6146745587,
+      "lat": 13.2610246,
+      "lon": 103.0894719,
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព តាពូង",
+        "name:en": "Ta Poung Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6146761585,
+      "lat": 13.2531955,
+      "lon": 103.0926551,
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរ​ពេទ្យ​បង្អែក​ស្រុក​ថ្មគោល​",
+        "name:en": "Thma Koul Referral Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6150752518,
+      "lat": 11.9117818,
+      "lon": 105.6512752,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Thepnimith Clinic & Maternity"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6191599285,
+      "lat": 11.5581657,
+      "lon": 104.9210993,
+      "tags": {
+        "addr:housenumber": "67",
+        "addr:street": "Preah Ang Phanavong St. (240), Phnom Penh 12207, Cambodge",
+        "amenity": "clinic",
+        "healthcare": "alternative",
+        "healthcare:speciality": "chiropractic",
+        "name": "អ៊ិនធើណេសិនណល ខាយរ៉ូព្រែកធីក គ្លីនិក",
+        "name:en": "International Chiropractic Clinic (ICC)",
+        "name:es": "Clinica internacional de chiropraxia",
+        "name:fr": "Clinique Chiropractique Internationale",
+        "opening_hours": "Tu-We, Fr 08:00-18:00; Mo, Th 08:00-19:00; Sa 08:00-12:00",
+        "phone": "+855 23 223 101",
+        "website": "https://www.cambodiachiropractic.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6212736385,
+      "lat": 11.0933946,
+      "lon": 104.3689251,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Bos Taphorng"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6212736485,
+      "lat": 11.07387,
+      "lon": 104.4963678,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Trapeang Andeak"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6212776785,
+      "lat": 11.0356002,
+      "lon": 104.5890095,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Angkor Referential Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6231455685,
+      "lat": 10.5754784,
+      "lon": 104.8024314,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Ta O"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6231505285,
+      "lat": 10.5632468,
+      "lon": 104.8514615,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Som"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6231537285,
+      "lat": 10.6468874,
+      "lon": 104.8711531,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Chhoun Chhum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6236287685,
+      "lat": 11.5679174,
+      "lon": 104.9064361,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Biomed",
+        "name:fr": "biomed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6250768585,
+      "lat": 11.5640694,
+      "lon": 104.901393,
+      "tags": {
+        "addr:street": "ផ្លូវ ១៥៦",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251492689,
+      "lat": 11.532148,
+      "lon": 104.9366563,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251502190,
+      "lat": 11.0503923,
+      "lon": 105.8931073,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251522093,
+      "lat": 11.4137577,
+      "lon": 105.2221823,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251522099,
+      "lat": 11.5165757,
+      "lon": 105.0290082,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251522586,
+      "lat": 11.536813,
+      "lon": 104.9700735,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251522591,
+      "lat": 11.5630064,
+      "lon": 104.9186257,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251523418,
+      "lat": 11.2159802,
+      "lon": 105.3474642,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251524791,
+      "lat": 11.1504767,
+      "lon": 105.6220076,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251525288,
+      "lat": 11.0592155,
+      "lon": 106.1173274,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251530488,
+      "lat": 11.5106949,
+      "lon": 105.0505958,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251534085,
+      "lat": 11.5354716,
+      "lon": 104.9731332,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6251534191,
+      "lat": 11.565253,
+      "lon": 104.9182005,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6259068685,
+      "lat": 12.8741446,
+      "lon": 103.1460157,
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌល​សុខភាព​កន្ទឺ១",
+        "name:en": "Kantoeu Muoy Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6269760186,
+      "lat": 11.5670243,
+      "lon": 104.9225305,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6274447585,
+      "lat": 12.4891794,
+      "lon": 105.1217395,
+      "tags": {
+        "addr:street": "ផ្លូវជាតិលេខ៦",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name:en": "Nhem Ping Clinic",
+        "phone": "+85512923983"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319078023,
+      "lat": 11.5654981,
+      "lon": 104.922957,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Soriya"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319078025,
+      "lat": 11.5667551,
+      "lon": 104.9176758,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319103375,
+      "lat": 11.5565081,
+      "lon": 104.9178624,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319103379,
+      "lat": 11.5592616,
+      "lon": 104.9177887,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319103987,
+      "lat": 11.5666398,
+      "lon": 104.9162102,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319111538,
+      "lat": 11.5605867,
+      "lon": 104.9170751,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:de": "Augen"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319111548,
+      "lat": 11.5652341,
+      "lon": 104.9149546,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319115796,
+      "lat": 11.553745,
+      "lon": 104.9179598,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6319125422,
+      "lat": 11.5451144,
+      "lon": 104.9162467,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320261085,
+      "lat": 11.5644128,
+      "lon": 104.9232552,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320261885,
+      "lat": 11.5674921,
+      "lon": 104.9252115,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320264588,
+      "lat": 11.5725835,
+      "lon": 104.9203075,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320264786,
+      "lat": 11.5728841,
+      "lon": 104.9219497,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320499433,
+      "lat": 11.5495479,
+      "lon": 104.9120963,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320499586,
+      "lat": 11.5626618,
+      "lon": 104.92393,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6320500295,
+      "lat": 11.5463125,
+      "lon": 104.9109271,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6323343594,
+      "lat": 11.5623773,
+      "lon": 104.9138068,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6325091897,
+      "lat": 11.5712212,
+      "lon": 104.92651,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6332862189,
+      "lat": 11.5565198,
+      "lon": 104.9062301,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6332891490,
+      "lat": 11.5546823,
+      "lon": 104.9008067,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6332897585,
+      "lat": 11.5548766,
+      "lon": 104.9020673,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6335609394,
+      "lat": 11.5486894,
+      "lon": 104.8993944,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337152802,
+      "lat": 11.5577606,
+      "lon": 104.9163971,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sophear Maternity",
+        "name:en": "Sophear Maternity"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337600405,
+      "lat": 11.545211,
+      "lon": 104.9245175,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337600414,
+      "lat": 11.5512559,
+      "lon": 104.9239019,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337600463,
+      "lat": 11.5700449,
+      "lon": 104.9269864,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337601132,
+      "lat": 11.5582963,
+      "lon": 104.9232229,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337601159,
+      "lat": 11.562114,
+      "lon": 104.9242399,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337601168,
+      "lat": 11.57136,
+      "lon": 104.9225655,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337601441,
+      "lat": 11.5695076,
+      "lon": 104.9195809,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Medi Care Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337601915,
+      "lat": 11.5699623,
+      "lon": 104.9251862,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337604489,
+      "lat": 11.5563333,
+      "lon": 104.9246485,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337604501,
+      "lat": 11.5593947,
+      "lon": 104.9161106,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337621694,
+      "lat": 11.5452687,
+      "lon": 104.924823,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Cmed"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337621719,
+      "lat": 11.5525952,
+      "lon": 104.9227005,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337621965,
+      "lat": 11.5505562,
+      "lon": 104.9063105,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337622108,
+      "lat": 11.553646,
+      "lon": 104.9232463,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337622130,
+      "lat": 11.5783473,
+      "lon": 104.9218141,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337630190,
+      "lat": 11.5518264,
+      "lon": 104.9077536,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6337634309,
+      "lat": 11.5499696,
+      "lon": 104.9053692,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6343003335,
+      "lat": 11.547865,
+      "lon": 104.920856,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349199098,
+      "lat": 11.5613479,
+      "lon": 104.9221044,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349199113,
+      "lat": 11.5673998,
+      "lon": 104.9241232,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Lab"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349199137,
+      "lat": 12.3389776,
+      "lon": 105.1028243,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Health Center",
+        "name:en": "Health Centwr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349199159,
+      "lat": 13.3103639,
+      "lon": 104.0390887,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349200101,
+      "lat": 11.5580709,
+      "lon": 104.9196938,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349200107,
+      "lat": 11.562929,
+      "lon": 104.921872,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Laboratory"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202210,
+      "lat": 13.3473819,
+      "lon": 103.8488023,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202219,
+      "lat": 13.3618604,
+      "lon": 103.8510875,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Clinic Veng Vuthy",
+        "name:km": "គ្លីនិក វេង វុទ្ធី"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202221,
+      "lat": 13.3597895,
+      "lon": 103.8502081,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Serey rath",
+        "name:km": "សិរីរ័ត្ន"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202232,
+      "lat": 13.3565495,
+      "lon": 103.8570028,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Medical council office",
+        "name:en": "Medical council office",
+        "name:km": "បន្ទប់ពិគ្រោះជំងឺ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202246,
+      "lat": 13.3646412,
+      "lon": 103.8530689,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Sokhapheap"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202268,
+      "lat": 13.3609962,
+      "lon": 103.8727675,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health center",
+        "name:km": "មណ្ឌលសុខភាព"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349202272,
+      "lat": 13.3603012,
+      "lon": 103.8728566,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Taprohm",
+        "name:km": "តាព្រហ្ម"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349209092,
+      "lat": 13.3635274,
+      "lon": 103.8551092,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Makalin"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6349346189,
+      "lat": 13.2772525,
+      "lon": 103.8218913,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351673787,
+      "lat": 13.1082228,
+      "lon": 103.196638,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Ritac"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351675900,
+      "lat": 13.3791035,
+      "lon": 103.8544177,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351675905,
+      "lat": 13.3681276,
+      "lon": 103.8587227,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351675996,
+      "lat": 13.5968075,
+      "lon": 103.3569288,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351676001,
+      "lat": 13.5369839,
+      "lon": 103.0232031,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351676116,
+      "lat": 13.5130899,
+      "lon": 103.0161625,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351676154,
+      "lat": 13.0962998,
+      "lon": 103.1984171,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Nouvel"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351676162,
+      "lat": 13.0973477,
+      "lon": 103.1968877,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351676214,
+      "lat": 13.1034801,
+      "lon": 103.1995255,
+      "tags": {
+        "amenity": "clinic",
+        "check_date:opening_hours": "2026-02-19",
+        "name": "Svoeuy Bunnareth Clinic",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351676289,
+      "lat": 13.1041429,
+      "lon": 103.1970853,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351686987,
+      "lat": 13.1068256,
+      "lon": 103.2008426,
+      "tags": {
+        "amenity": "clinic",
+        "check_date:opening_hours": "2026-02-24",
+        "name": "Svaypor Health Center",
+        "opening_hours:signed": "no",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351686996,
+      "lat": 13.0819667,
+      "lon": 103.1932273,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351686998,
+      "lat": 12.996539,
+      "lon": 103.1601376,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health centet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351687301,
+      "lat": 13.0663555,
+      "lon": 103.0580216,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351687995,
+      "lat": 13.0593174,
+      "lon": 103.0600952,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351688290,
+      "lat": 13.106516,
+      "lon": 103.1968593,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351688294,
+      "lat": 13.1048985,
+      "lon": 103.1993258,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Laboratoire Spectro",
+        "opening_hours": "Mo-Su 06:30-18:00"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351688299,
+      "lat": 13.0269636,
+      "lon": 103.1723339,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351688896,
+      "lat": 13.1056228,
+      "lon": 103.1951942,
+      "tags": {
+        "amenity": "clinic",
+        "check_date:opening_hours": "2026-01-28",
+        "name": "Sokhapheap Laor Polyclinic",
+        "opening_hours:signed": "no"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351689386,
+      "lat": 13.0630597,
+      "lon": 103.1553708,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351689597,
+      "lat": 13.0284449,
+      "lon": 103.0973829,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6351689605,
+      "lat": 13.5365284,
+      "lon": 103.0230547,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6358318876,
+      "lat": 11.534295,
+      "lon": 104.8795177,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:housenumber": "11",
+        "addr:postcode": "12352",
+        "addr:street": "មហាវិថី វេង​ស្រេង",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "dentist",
+        "name": "THE TEETH Clinic Phnom Penh Cambodia"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6360686602,
+      "lat": 13.6065057,
+      "lon": 102.7784723,
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6367461186,
+      "lat": 12.7735209,
+      "lon": 103.4491877,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Mong Russey OD"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6393076185,
+      "lat": 11.5871915,
+      "lon": 104.9036724,
+      "tags": {
+        "addr:postcode": "1205",
+        "addr:street": "V 116",
+        "amenity": "clinic",
+        "email": "srengsineng@gmail.com",
+        "name": "Master Skin Clinic",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "phone": "+855 12 535 558",
+        "website": "http://www.masterskinclinic.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6465627717,
+      "lat": 13.1091611,
+      "lon": 103.2044774,
+      "tags": {
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/%E1%9E%A2%E1%9F%81%E1%9E%80%E1%9E%BC%E1%9E%8E%E1%9E%BB%E1%9E%94%E1%9E%9F%E1%9E%BB%E1%9E%8A%E1%9F%81%E1%9E%8F-nopsodeth-359016001623763/",
+        "name": "អេកូណុបសុដេត"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6522522485,
+      "lat": 13.6926824,
+      "lon": 103.5228436,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Public Latrine at Sen​Sok Health Center, Phum Kok Phngeas"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6534990392,
+      "lat": 11.5528402,
+      "lon": 104.92858,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Derma Care Son Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6559016185,
+      "lat": 12.004796,
+      "lon": 104.4255397,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6686008585,
+      "lat": 11.5562844,
+      "lon": 104.9171071,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "គីរីរម្យ​ គ្លីនិច"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6725325797,
+      "lat": 11.5323042,
+      "lon": 104.7999192,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "meditation",
+        "name": "Vagn Sopal Hospital",
+        "operator": "Hospital",
+        "operator:type": "public"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6741830923,
+      "lat": 11.5820389,
+      "lon": 104.9200686,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:street": "វិថី សម្តេច អែម (៣៩)",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Chenda Polyclinic",
+        "name:km": "មន្ទីរពហុព្យាបាលចិន្តា",
+        "website": "https://www.chendapolyclinic.com/index.html"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6791381322,
+      "lat": 11.558136,
+      "lon": 104.8881956,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Angkor Skin Clinic & Laser",
+        "phone": "+855 12882649"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6917974586,
+      "lat": 11.5836479,
+      "lon": 104.9073431,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Global Eye Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6996494394,
+      "lat": 11.6533233,
+      "lon": 104.9135954,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7046099207,
+      "lat": 11.5738243,
+      "lon": 104.9214492,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:housenumber": "6th Floor",
+        "addr:postcode": "12202",
+        "addr:street": "Building No.19-20,Street No.106,Village 2,Wat Phnom,Daun Penh",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "fertility",
+        "name": "天使国际生殖医学中心(AIC金边)",
+        "name:en": "Angel International Reproductive Medicine Center",
+        "name:zh": "天使国际生殖医学中心(AIC金边)",
+        "opening_hours": "Mo-Sa 08:00-18:00",
+        "operator": "AIC",
+        "operator:type": "private"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7117751085,
+      "lat": 11.5626054,
+      "lon": 104.8567,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "វេជ្ជ​ ហ៊យ​ គីមហេង",
+        "name:en": "Hoy Kim Heng Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7210910961,
+      "lat": 12.4871438,
+      "lon": 105.122242,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែកស្រុកបារាយណ៍",
+        "name:en": "Baray Referral Hospital",
+        "name:km": "មន្ទីរពេទ្យបង្អែកស្រុកបារាយណ៍"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7246490585,
+      "lat": 11.9925989,
+      "lon": 105.4599957,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Kampong Cham Physical Rehabilitation Centre",
+        "opening_hours": "Mo-Fr 07:00-17:00",
+        "operator": "Persons with Disabilities Foundation"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7297922285,
+      "lat": 11.5797,
+      "lon": 104.8981,
+      "tags": {
+        "addr:housenumber": "4",
+        "addr:street": "ផ្លូវ ៥៤៨",
+        "amenity": "clinic",
+        "name:en": "Mearda Clinic and Maternity",
+        "opening_hours": "24/7",
+        "phone": "+85512685075"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7297933485,
+      "lat": 11.5482322,
+      "lon": 104.9048801,
+      "tags": {
+        "addr:housenumber": "76",
+        "addr:postcode": "12309",
+        "addr:street": "ផ្លូវ ១៩៩",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "មន្ទីរសម្ភព ណូប៊ែល",
+        "name:en": "NOBEL Maternity",
+        "opening_hours": "24/7",
+        "phone": "+85512724433"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7334497782,
+      "lat": 13.5794543,
+      "lon": 103.4400864,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7370461244,
+      "lat": 11.5535283,
+      "lon": 104.9306181,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "The Prestige Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7488068185,
+      "lat": 11.5502267,
+      "lon": 104.9184302,
+      "tags": {
+        "addr:housenumber": "64C",
+        "addr:postcode": "855",
+        "addr:street": "ផ្លូវ ៣១០",
+        "amenity": "clinic",
+        "email": "laklengclinic@gmail.com",
+        "name:en": "LAK LENG Clinic",
+        "operator": "Dr. Lak Leng",
+        "phone": "015353888",
+        "website": "http://Fb.com/lakleng.dr"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7488068285,
+      "lat": 11.5507896,
+      "lon": 104.9189,
+      "tags": {
+        "amenity": "clinic",
+        "name:en": "Lak Leng Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7660330321,
+      "lat": 11.5132421,
+      "lon": 104.7584946,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Ang Snoul Referral Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7660376185,
+      "lat": 11.5324189,
+      "lon": 104.8151498,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Lam Bunthan Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7694423942,
+      "lat": 11.5068505,
+      "lon": 104.7155275,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Sok Meng Clinic and Maternity"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7706081685,
+      "lat": 13.1095131,
+      "lon": 103.2091449,
+      "tags": {
+        "addr:housenumber": "656",
+        "addr:street": "Street 156",
+        "amenity": "clinic",
+        "email": "kim.ratanak@yahoo.com",
+        "internet_access": "wlan",
+        "name:en": "Kim Savong",
+        "opening_hours": "24/7",
+        "phone": "093553388"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7707096785,
+      "lat": 13.1095154,
+      "lon": 103.2091547,
+      "tags": {
+        "addr:housenumber": "656",
+        "addr:street": "Street 156",
+        "amenity": "clinic",
+        "email": "kim.ratanak@yahoo.com",
+        "internet_access": "wlan",
+        "name": "ពេទ្យឆ្មប គឹម សាវង្ស",
+        "name:en": "Kim Savong midwife",
+        "opening_hours": "24/7",
+        "phone": "093553388"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7778139901,
+      "lat": 11.4819539,
+      "lon": 104.9462412,
+      "tags": {
+        "addr:housenumber": "22",
+        "addr:postcode": "08251",
+        "addr:street": "ផ្លូវ ១០៦",
+        "amenity": "hospital",
+        "internet_access": "wlan",
+        "name": "គ្លីនិក​ និង​សម្ភព​ សុខាបញ្ញា​",
+        "name:en": "Sokha Panha Clinic and Maternity",
+        "name:khm": "គ្លីនិក​និង​សម្ភព​ សុខាបញ្ញា​",
+        "opening_hours": "24/7",
+        "phone": "012333283"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7794798369,
+      "lat": 11.5811241,
+      "lon": 104.9017873,
+      "tags": {
+        "addr:housenumber": "19",
+        "addr:street": "ផ្លូវ ៥២៨",
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/drprofessionalglobal/",
+        "email": "drprofessional@gmail.com",
+        "healthcare:speciality": "plastic_surgery",
+        "name": "DR Professional Global",
+        "opening_hours": "Mo-Su 09:00-19:00",
+        "phone": "+855 011720733; +855 010720733",
+        "website": "https://drprofessionalglobal.com"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7883532985,
+      "lat": 11.7642851,
+      "lon": 106.1693771,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Roung Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8001656167,
+      "lat": 11.6404128,
+      "lon": 104.9182348,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:housenumber": "99/101 Preak Leap, Chhroy Chang Var",
+        "addr:postcode": "12112",
+        "addr:street": "Road 6A",
+        "amenity": "hospital",
+        "email": "ganoexcelcambodia@gmail.com",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "general;traditional_chinese_medicine",
+        "name": "GANO EXCEL CLINIC",
+        "operator": "SAN SOPHAT",
+        "operator:type": "private",
+        "phone": "+85578747555",
+        "website": "https://www.ganoexcelcambodiaclinic.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8080720617,
+      "lat": 11.5512712,
+      "lon": 104.883273,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "ENT Group",
+        "name:km": "ក្រុម អ៊ីអេនធី"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8095860617,
+      "lat": 10.6390566,
+      "lon": 103.5575586,
+      "tags": {
+        "addr:street": "ផ្លូវជាតិលេខ៤",
+        "amenity": "hospital",
+        "email": "stravymaxx@gmail.com",
+        "internet_access": "wlan",
+        "name:en": "People Clinic",
+        "opening_hours": "24/7",
+        "phone": "015400472"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8104184807,
+      "lat": 11.5216144,
+      "lon": 104.8211923,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Chom Chao Eye Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8147613025,
+      "lat": 13.3438186,
+      "lon": 103.8283026,
+      "tags": {
+        "amenity": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8214559717,
+      "lat": 11.6724487,
+      "lon": 105.6843619,
+      "tags": {
+        "amenity": "hospital",
+        "name": "ជាច (មណ្ឌលសុខភាព)",
+        "name:en": "Cheach Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8214597217,
+      "lat": 11.570569,
+      "lon": 105.5839461,
+      "tags": {
+        "amenity": "hospital",
+        "name": "ដូនកឹង (មណ្ឌលសុខភាព)",
+        "name:en": "Doun Keng Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8217993418,
+      "lat": 11.580408,
+      "lon": 105.6656457,
+      "tags": {
+        "amenity": "hospital",
+        "name": "កំចាយមារ (មន្ទីរពេទ្យបង្អែក)",
+        "name:en": "Kamchaymear Referral Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8221693117,
+      "lat": 11.624443,
+      "lon": 105.7413773,
+      "tags": {
+        "amenity": "hospital",
+        "name": "ក្របៅ (មណ្ឌលសុខភាព)",
+        "name:en": "Krabao Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8310537218,
+      "lat": 11.5319015,
+      "lon": 104.9392168,
+      "tags": {
+        "addr:housenumber": "585",
+        "addr:street": "ផ្លូវជាតិលេខ១",
+        "amenity": "hospital",
+        "email": "pheng.pheany@yahoo.com",
+        "healthcare": "hospital",
+        "internet_access": "wlan",
+        "opening_hours": "24/7",
+        "phone": "010807470"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8330268217,
+      "lat": 11.5681122,
+      "lon": 104.9122807,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មណ្ឌលវេជ្ជសាស្ត្រសហគមន៍​ ហូប​ វេីលដ៍វ៉ាយដ៍",
+        "name:en": "Hope Worldwide - Community Medical Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8349104617,
+      "lat": 11.6289201,
+      "lon": 104.9024374,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "គ្លីនិក​ វឌ្ឍនៈ​វិជ្ជា​",
+        "name:en": "Vadhanak Vichea Clinic",
+        "name:km": "គ្លីនិក​ វឌ្ឍនៈ​វិជ្ជា​"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8647552310,
+      "lat": 10.4827386,
+      "lon": 104.3169469,
+      "tags": {
+        "addr:street": "National Road 33A",
+        "amenity": "hospital",
+        "name": "Kep Provincial Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8827566817,
+      "lat": 10.5437344,
+      "lon": 104.3156196,
+      "tags": {
+        "addr:street": "National Road 33",
+        "alt_name": "មន្ទីរសម្រាកព្យាបាលសុខុមាលកែប",
+        "amenity": "clinic",
+        "name": "Keb clinic",
+        "phone": "093555756"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8827648217,
+      "lat": 10.5351434,
+      "lon": 104.3211779,
+      "tags": {
+        "addr:street": "National Road 33A",
+        "alt_name": "មណ្ឌលសុខភាពព្រៃធំ",
+        "amenity": "hospital",
+        "name:en": "Prey Thorm Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 8828720718,
+      "lat": 10.5589291,
+      "lon": 104.281218,
+      "tags": {
+        "addr:street": "National Road 33",
+        "amenity": "hospital",
+        "name:en": "Okrasa Health Center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9236518710,
+      "lat": 11.5557075,
+      "lon": 104.8866007,
+      "tags": {
+        "amenity": "clinic",
+        "contact:facebook": "https://www.facebook.com/people/Princess-Beauty-Center/100063481571753/",
+        "healthcare": "clinic",
+        "healthcare:speciality": "plastic_surgery",
+        "name": "Princess Beauty Center",
+        "phone": "+855 96 559 9968"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9372720917,
+      "lat": 12.4556571,
+      "lon": 107.1868375,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "survey:date": "2021-12-28"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9372721017,
+      "lat": 12.4587984,
+      "lon": 107.1871111,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "survey:date": "2021-12-28"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9387943517,
+      "lat": 13.4414389,
+      "lon": 103.727677,
+      "tags": {
+        "addr:street": "ផ្លូវជាតិលេខ៦",
+        "amenity": "hospital",
+        "internet_access": "wlan",
+        "name:en": "People's Health Clinic.",
+        "name:fr": "មន្ទីរសម្រាកព្យាបាលប្រឹក្សាសុខភាពប្រជាជន",
+        "opening_hours": "24/7",
+        "phone": "085333439"
+      }
+    },
+    {
+      "type": "node",
+      "id": 9676006817,
+      "lat": 11.5606456,
+      "lon": 104.9141026,
+      "tags": {
+        "addr:housenumber": "Building C5",
+        "addr:street": "Street 161 (corner of The Financial Street)",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Intercare Medical Covid-19 Testing Clinic",
+        "phone": "023 996 900",
+        "website": "https://m.facebook.com/intercaremedicalcenter/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120751090,
+      "lat": 11.7945645,
+      "lon": 105.0841904,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Svay Por Health Center",
+        "name:en": "Svay Por Health Center",
+        "name:km": "មណ្ឌលសុខភាពស្វាយពោធិ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120787087,
+      "lat": 11.8340806,
+      "lon": 105.1106397,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120787098,
+      "lat": 11.8359001,
+      "lon": 105.0605855,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Mean Chey Health Center",
+        "name:en": "Mean Chey Health Center",
+        "name:km": "មណ្ឌលសុខភាពមានជ័យ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120787125,
+      "lat": 11.7735466,
+      "lon": 105.0261006,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Preah Prasop Health Center",
+        "name:en": "Preah Prasop Health Center",
+        "name:km": "មណ្ឌលសុខភាពព្រះប្រសប់"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10120787143,
+      "lat": 11.7467954,
+      "lon": 105.0102738,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Prek Ta Mak Polyclinic and Maternity",
+        "name:en": "Prek Ta Mak Polyclinic and Maternity",
+        "name:km": "មន្ទីរសម្រាកព្យាបាល និងសម្ភពព្រែកតាមាក់"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10711378749,
+      "lat": 11.4408713,
+      "lon": 104.967749,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Khemunik Hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10760336105,
+      "lat": 13.109567,
+      "lon": 103.2091742,
+      "tags": {
+        "addr:housenumber": "656",
+        "addr:street": "Street 156",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name:en": "Mid wife"
+      }
+    },
+    {
+      "type": "node",
+      "id": 10833602855,
+      "lat": 11.830705,
+      "lon": 104.7916371,
+      "tags": {
+        "amenity": "clinic",
+        "name": "Prak Sam On"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11137596651,
+      "lat": 11.5197697,
+      "lon": 104.9500852,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11204097737,
+      "lat": 13.1235725,
+      "lon": 103.2022413,
+      "tags": {
+        "addr:street": "Street 520",
+        "amenity": "clinic",
+        "internet_access": "wlan",
+        "name:en": "បន្ទប់សម្រាក ថែទាំ និងព្យាបាលរោគស្ដ្រី(ពេទ្យឆ្មប គឹម សាវង្ស)",
+        "opening_hours": "24/7",
+        "phone": "066555926"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11280992072,
+      "lat": 10.8522707,
+      "lon": 103.8148756,
+      "tags": {
+        "amenity": "hospital",
+        "name:en": "Junction to center"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11341076472,
+      "lat": 11.5605955,
+      "lon": 104.9176453,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name:en": "Kamikazer Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11601341969,
+      "lat": 13.3472768,
+      "lon": 103.8707382,
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:street": "7 Makara Street",
+        "amenity": "hospital",
+        "contact:email": "enquiries@neaktephospital.com",
+        "contact:facebook": "Neak Tep Hospital",
+        "contact:phone": "+855 17 928 655;+855 98 928 655;+855 90 928 655",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "vaccination;general;emergency",
+        "name:en": "Neak Tep Hospital",
+        "website": "https://www.neaktephospital.com/"
+      }
+    },
+    {
+      "type": "node",
+      "id": 11782392315,
+      "lat": 11.5446161,
+      "lon": 104.9327584,
+      "tags": {
+        "addr:city": "Sangkat Tonle Bassac,  Khan Chamkamon",
+        "addr:housenumber": "N43",
+        "addr:street": "Koh Pich Street",
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "healthcare:speciality": "general;dermatology;sexually_transmitted_diseases;surgery;aesthetics;cryotherapy",
+        "name": "BH Clinic",
+        "opening_hours": "Mo-Fr 07:30-16:30; Sa 07:30-12:30",
+        "phone": "+855 23 900 446",
+        "website": "https://bhclinic888.wixsite.com/mysite"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12550956433,
+      "lat": 10.6212869,
+      "lon": 103.2924181,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2025-02-02",
+        "healthcare": "hospital",
+        "name": "Local Health Point"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12574204116,
+      "lat": 13.2402097,
+      "lon": 103.6594557,
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2025-02-09",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 12581514751,
+      "lat": 13.789593,
+      "lon": 107.1068287,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Samaky Health Center - មណ្ឌលសុខភាពសាមគ្គី"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13081328678,
+      "lat": 11.5031099,
+      "lon": 104.8145912,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:postcode": "12000",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "បន្ទប់ពិគ្រោះ និង ព្យាបាលជំងឺរិទ្ធីតា Rithyda Cabinet"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13081328684,
+      "lat": 11.5039885,
+      "lon": 104.8185414,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:postcode": "12000",
+        "addr:street": "ជាតិ​លេខ​៣, ទួល​កី​ ភ្លេីងឆេះរទេះ, ផ្លូវ",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "សម្ផស្ស​ ​ពិគ្រោះ​ស្ត្រី​មានផ្ទៃពោះ​"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13081328685,
+      "lat": 11.5040852,
+      "lon": 104.8188843,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:postcode": "12000",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "បន្ទប់ពិគ្រោះស្រ្តីមានផ្ទៃពោះ ប៉ុន សម្ផស្ស"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13083701465,
+      "lat": 11.4804024,
+      "lon": 104.8760865,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:postcode": "12000",
+        "addr:street": "ផ្លូវក្រវ៉ាត់ក្រុងខ្សែទី២",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "បន្ទប់ពិគ្រោះនឹងព្យាបាលជំងឺ សែនសុខសាន្ត"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13086293478,
+      "lat": 11.4551354,
+      "lon": 104.8102907,
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:postcode": "12000",
+        "addr:street": "ផ្លូវជាតិលេខ៣",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរសម្រាកព្យាបាលនិងសម្ភព ឡាច តូ"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13353488802,
+      "lat": 10.6848559,
+      "lon": 103.2858839,
+      "tags": {
+        "amenity": "clinic",
+        "name": "24h clinic & pharmacy"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13463491700,
+      "lat": 11.5357023,
+      "lon": 104.9124069,
+      "tags": {
+        "amenity": "clinic",
+        "healthcare": "clinic",
+        "name": "Ly Srey Vyna"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13563513201,
+      "lat": 13.0956117,
+      "lon": 103.1976503,
+      "tags": {
+        "amenity": "clinic",
+        "check_date:opening_hours": "2026-02-17",
+        "name": "Golden Polyclinic & Maternity",
+        "opening_hours:signed": "no",
+        "phone": "092397171",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13563549401,
+      "lat": 13.0956117,
+      "lon": 103.1976503,
+      "tags": {
+        "amenity": "clinic",
+        "check_date:opening_hours": "2026-02-18",
+        "name": "Golden Polyclinic & Maternity",
+        "opening_hours:signed": "no",
+        "phone": "092397171",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "node",
+      "id": 13780432403,
+      "lat": 11.6376775,
+      "lon": 104.9199943,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Orange Cancer Clinic"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14198600934,
+      "lat": 11.6213046,
+      "lon": 104.8787125,
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "node",
+      "id": 14307165030,
+      "lat": 11.5611786,
+      "lon": 104.9141204,
+      "tags": {
+        "amenity": "hospital",
+        "name": "Intercare Medical Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 162762723,
+      "center": {
+        "lat": 11.9931757,
+        "lon": 105.46038
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kampong Cham Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 165927974,
+      "center": {
+        "lat": 11.5813561,
+        "lon": 104.9156946
+      },
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:street": "Preah Monivong Blvd (St: 93)",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​ កាល់ម៉ែត",
+        "name:en": "Calmette Hospital",
+        "name:fr": "L'Hôpital Calmette",
+        "wikidata": "Q5023043",
+        "wikimedia_commons": "Category:Calmette Hospital",
+        "wikipedia": "en:Calmette Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171308661,
+      "center": {
+        "lat": 11.5540027,
+        "lon": 104.9197461
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មជ្ឈមណ្ឌលជាតិ​កំចាត់រោគ របេង និង ហង់សិន (CENAT)",
+        "name:en": "National Center for Tuberculosis and Leprosy (CENAT)",
+        "name:km": "មជ្ឈមណ្ឌលជាតិ​កំចាត់រោគ របេង និង ហង់សិន"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309627,
+      "center": {
+        "lat": 11.5717846,
+        "lon": 104.9232124
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​ព្រះអង្គឌួង",
+        "name:en": "Preah Ang Duong Hospital",
+        "name:km": "មន្ទីរពេទ្យ​ព្រះអង្គឌួង",
+        "name:th": "โรงพยาบาลพระองค์ด้วง"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309629,
+      "center": {
+        "lat": 11.5453433,
+        "lon": 104.9038304
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​មិត្តភាព​ខ្មែរ-សូវៀត",
+        "name:en": "Khmer-Soviet Friendship Hospital",
+        "name:tr": "Khmer-Sovyet Dostluk Hastanesi",
+        "name:vi": "Bệnh viện Hữu nghị Khmer-Xô viết",
+        "wheelchair": "yes",
+        "wikidata": "Q16893316",
+        "wikipedia": "en:Khmer–Soviet Friendship Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309635,
+      "center": {
+        "lat": 11.5793177,
+        "lon": 104.920336
+      },
+      "tags": {
+        "alt_name": "Japanese Maternity Hospital",
+        "alt_name1": "Japon Hospital",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មជ្ឈមណ្ឌលជាតិ​គាំពារមាតា និង ទារក",
+        "name:en": "National Maternal and Child Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309636,
+      "center": {
+        "lat": 11.5640731,
+        "lon": 104.8902995
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យព្រះកុសុមៈ ហៅ  ពេទ្យ​លោកសង្ឃ",
+        "name:en": "Preah Kossamak Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309638,
+      "center": {
+        "lat": 11.5683573,
+        "lon": 104.8968256
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​កុមារ​ជាតិ",
+        "name:en": "National Pediatric Hospital",
+        "wikidata": "Q6974852",
+        "wikipedia": "en:National Pediatric Hospital, Cambodia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309640,
+      "center": {
+        "lat": 11.5798191,
+        "lon": 104.9216112
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​ព្រះកេតុ​មាលា:",
+        "name:en": "Preah Ket Mealea Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 171309992,
+      "center": {
+        "lat": 11.5669721,
+        "lon": 104.9124256
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​រាជធានីភ្នំពេញ",
+        "name:en": "Phnom Penh Municipal Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 174434401,
+      "center": {
+        "lat": 11.7851987,
+        "lon": 104.7694326
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 178591094,
+      "center": {
+        "lat": 11.5301012,
+        "lon": 104.9371076
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​ច្បារអំពៅ",
+        "name:en": "Chbar Ampov Hospital",
+        "name:km": "មន្ទីរពេទ្យ​ច្បារអំពៅ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 180202550,
+      "center": {
+        "lat": 11.6000839,
+        "lon": 104.9320651
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មជ្ឈមណ្ឌល​ស្តារនីតិសម្បទាជាតិ គៀនឃ្លាំង",
+        "name:en": "Kien Khleang National Rehabilitation Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 184258807,
+      "center": {
+        "lat": 11.5778557,
+        "lon": 104.9213168
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ គន្ធបុប្ផា",
+        "name:en": "Kantha Bopha IV Children Hospital",
+        "name:km": "មន្ទីរពេទ្យ គន្ធបុប្ផា"
+      }
+    },
+    {
+      "type": "way",
+      "id": 190538951,
+      "center": {
+        "lat": 13.3584856,
+        "lon": 103.856246
+      },
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "amenity": "hospital",
+        "contact:email": "ahcpr@angkorhospital.org",
+        "contact:fax": "+855 63 760452",
+        "contact:phone": "+855 63 963409",
+        "contact:website": "http://angkorhospital.org/",
+        "healthcare": "hospital",
+        "name": "Angkor Hospital for Children",
+        "wikidata": "Q540055"
+      }
+    },
+    {
+      "type": "way",
+      "id": 190538952,
+      "center": {
+        "lat": 13.3757062,
+        "lon": 103.8608782
+      },
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "amenity": "hospital",
+        "barrier": "fence",
+        "contact:phone": "+855 81 258 314",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ គន្ធបុប្ផា ជ័យវ័រន្ម ទី ៧",
+        "name:en": "Kantha Bopha Jayavarmann VII",
+        "start_date": "1999",
+        "wikidata": "Q1723985",
+        "wikipedia": "de:Kanta Bopha"
+      }
+    },
+    {
+      "type": "way",
+      "id": 190538954,
+      "center": {
+        "lat": 13.3562074,
+        "lon": 103.8555262
+      },
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "amenity": "hospital",
+        "contact:email": "phalkunsph@yahoo.com",
+        "contact:fax": "+855 63 764092",
+        "contact:phone": "+855 63 764 091",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​បង្អែក​ខេត្តសៀមរាប",
+        "name:en": "Siem Reap Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 190551079,
+      "center": {
+        "lat": 10.6121856,
+        "lon": 103.5290093
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ​បង្អែក​ខេត្ត​ព្រះសីហនុ",
+        "name:en": "Sihanoukville Provincial Hospital",
+        "name:km": "មន្ទីរពេទ្យ​បង្អែក​ខេត្ត​ព្រះសីហនុ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 194777375,
+      "center": {
+        "lat": 11.699547,
+        "lon": 104.8405918
+      },
+      "tags": {
+        "amenity": "hospital",
+        "designation": "023000000",
+        "name": "Samrong Commune Health Centre",
+        "phone": "012222222"
+      }
+    },
+    {
+      "type": "way",
+      "id": 194780531,
+      "center": {
+        "lat": 11.6623889,
+        "lon": 104.861846
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Prek Pneou Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 227282980,
+      "center": {
+        "lat": 11.4808578,
+        "lon": 104.9426287
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរពេទ្យ​ជ័យជំនះ",
+        "name:en": "Chey Chom Nas Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 232955679,
+      "center": {
+        "lat": 11.5652041,
+        "lon": 104.7101148
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព សំរោងលើ",
+        "name:en": "Samrongleu Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 235777723,
+      "center": {
+        "lat": 13.5305951,
+        "lon": 105.969059
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 250095898,
+      "center": {
+        "lat": 13.6538508,
+        "lon": 105.2599728
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព​ស្អាង",
+        "name:en": "Saang Health Center",
+        "name:km": "មណ្ឌលសុខភាព​ស្អាង"
+      }
+    },
+    {
+      "type": "way",
+      "id": 253146032,
+      "center": {
+        "lat": 11.5339086,
+        "lon": 104.9455277
+      },
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Niroth Health Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 254608236,
+      "center": {
+        "lat": 11.5758059,
+        "lon": 104.8989222
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "វិទ្យាស្ថានជាតិ​សុខភាព​សាធារណៈ",
+        "name:en": "National Institute of Public Health"
+      }
+    },
+    {
+      "type": "way",
+      "id": 255878332,
+      "center": {
+        "lat": 11.7499394,
+        "lon": 105.0090344
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 257728428,
+      "center": {
+        "lat": 11.5785823,
+        "lon": 104.9207126
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ គន្ធបុប្ផា",
+        "name:en": "Kantha Bopha Children Hospital",
+        "name:km": "មន្ទីរពេទ្យ គន្ធបុប្ផា"
+      }
+    },
+    {
+      "type": "way",
+      "id": 257728591,
+      "center": {
+        "lat": 11.5614292,
+        "lon": 104.9308898
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ គន្ធបុប្ផា",
+        "name:en": "Kantha Bopha Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 257775766,
+      "center": {
+        "lat": 12.4532671,
+        "lon": 107.1876479
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែក សែនមនោរម្យ",
+        "name:en": "Saen Monorom Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 259153697,
+      "center": {
+        "lat": 11.5798626,
+        "lon": 104.9166654
+      },
+      "tags": {
+        "amenity": "clinic",
+        "emergency": "no",
+        "healthcare": "clinic",
+        "name": "Chea Sim Dialysis Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 265697831,
+      "center": {
+        "lat": 11.5354982,
+        "lon": 104.9606902
+      },
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ ជោរែ ភ្នំពេញ",
+        "name:en": "Cho Ray Phnom Penh Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 269745209,
+      "center": {
+        "lat": 11.6116537,
+        "lon": 104.951741
+      },
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "name": "មណ្ឌលសុខភាព ព្រែក តាកូវ",
+        "name:en": "Prek Takov Health Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 291294833,
+      "center": {
+        "lat": 11.469086,
+        "lon": 105.0061996
+      },
+      "tags": {
+        "addr:city": "Phnom Penh city , Sangkat Praek Thmi",
+        "addr:street": "369",
+        "amenity": "hospital",
+        "emergency": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 295124083,
+      "center": {
+        "lat": 11.5806,
+        "lon": 104.9157838
+      },
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:housenumber": "5",
+        "addr:street": "មហាវិថី ព្រះមុនីវង្ស (៩៣)",
+        "amenity": "hospital",
+        "emergency": "no",
+        "healthcare": "hospital",
+        "name": "Institut Pasteur du Cambodge",
+        "opening_hours": "Mo-Fr 07:00-17:00; Sa 07:00-11:30",
+        "phone": "+855 23 428 561",
+        "short_name": "IPC",
+        "website": "https://www.pasteur-kh.org/",
+        "wikidata": "Q30281766",
+        "wikipedia": "en:Institut Pasteur du Cambodge"
+      }
+    },
+    {
+      "type": "way",
+      "id": 309521271,
+      "center": {
+        "lat": 10.6115135,
+        "lon": 104.1782752
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kampot Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 310793379,
+      "center": {
+        "lat": 13.5904281,
+        "lon": 102.9743764
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Sereysophorn Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 315107520,
+      "center": {
+        "lat": 12.4868295,
+        "lon": 105.1221931
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 318915138,
+      "center": {
+        "lat": 13.1085867,
+        "lon": 103.2018011
+      },
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2026-02-15",
+        "healthcare": "hospital",
+        "name": "Battambang Provincial Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 335201925,
+      "center": {
+        "lat": 12.7116894,
+        "lon": 104.8822726
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Provincial Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 355254888,
+      "center": {
+        "lat": 11.8232871,
+        "lon": 104.7655072
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ ស្រុកពញាឮ",
+        "name:en": "Ponhea Leu District Hospital",
+        "name:km": "មន្ទីរពេទ្យ ស្រុកពញាឮ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 368736000,
+      "center": {
+        "lat": 11.6143955,
+        "lon": 102.9826522
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Koh Kong Provincial Referral Hospital",
+        "source": "Sign"
+      }
+    },
+    {
+      "type": "way",
+      "id": 373163662,
+      "center": {
+        "lat": 10.507093,
+        "lon": 103.6163943
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 374044882,
+      "center": {
+        "lat": 11.2605906,
+        "lon": 105.2847428
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Neak Loeung Referal Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 376041075,
+      "center": {
+        "lat": 10.5709659,
+        "lon": 104.1315601
+      },
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "Sonja Kill Memorial Hospital",
+        "phone": "+85578265782",
+        "website": "https://skmh.org/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 378584830,
+      "center": {
+        "lat": 11.3581666,
+        "lon": 104.5326469
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 379562472,
+      "center": {
+        "lat": 11.562166,
+        "lon": 104.8807904
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ រ៉ូយ៉ាល់ ភ្នំពេញ",
+        "name:en": "Royal Phnom Penh Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 380195873,
+      "center": {
+        "lat": 10.9893981,
+        "lon": 104.7828289
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែកខេត្តតាកែវ",
+        "name:en": "Takeo Provincial Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 389832954,
+      "center": {
+        "lat": 11.5098283,
+        "lon": 105.0516913
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kien Svay Referral Hospital",
+        "name:km": "មន្ទីរពេទ្យបង្អែកស្រុក កៀនស្វាយ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399818813,
+      "center": {
+        "lat": 11.5126839,
+        "lon": 104.9488506
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ ១៦ ឧសភា",
+        "name:en": "16 Ouksaphea Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 399828223,
+      "center": {
+        "lat": 11.5308335,
+        "lon": 104.9303884
+      },
+      "tags": {
+        "amenity": "hospital",
+        "emergency": "yes",
+        "name": "Policlinic Bayon"
+      }
+    },
+    {
+      "type": "way",
+      "id": 409393894,
+      "center": {
+        "lat": 11.3574847,
+        "lon": 105.0085728
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែកស្រុក ស្អាង",
+        "name:en": "Saang Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 431112814,
+      "center": {
+        "lat": 11.823929,
+        "lon": 104.7396619
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Oudong Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432206240,
+      "center": {
+        "lat": 13.3818289,
+        "lon": 103.8285768
+      },
+      "tags": {
+        "addr:city": "Siem Reap",
+        "addr:country": "KH",
+        "addr:postcode": "17000",
+        "addr:street": "National Highway 6",
+        "amenity": "hospital",
+        "contact:phone": "+855 12 235 888",
+        "contact:website": "http://www.royalangkorhospital.com/",
+        "name": "Royal Angkor International Hospital",
+        "opening_hours": "00:00-24:00"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432304784,
+      "center": {
+        "lat": 10.9870029,
+        "lon": 104.7643249
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Eye Hospital Takeo Province"
+      }
+    },
+    {
+      "type": "way",
+      "id": 432714384,
+      "center": {
+        "lat": 11.1627645,
+        "lon": 104.955855
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែក​ព្រៃកប្បាស",
+        "name:en": "Prey Kabbas Referral Hospital",
+        "name:km": "មន្ទីរពេទ្យបង្អែក​ព្រៃកប្បាស"
+      }
+    },
+    {
+      "type": "way",
+      "id": 445638949,
+      "center": {
+        "lat": 11.1293093,
+        "lon": 105.057435
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Koh Thom District Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 448625061,
+      "center": {
+        "lat": 11.5731861,
+        "lon": 104.8774952
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យ សាកលវិទ្យាល័យ អន្តរជាតិ សែនសុខ",
+        "name:en": "Sen Sok International University Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 451002758,
+      "center": {
+        "lat": 11.5626348,
+        "lon": 104.838969
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មជ្ឈមណ្ឌលវេជ្ជសាស្ត្រហេប្រុន",
+        "name:en": "Hebron Medical Center",
+        "name:km": "មជ្ឈមណ្ឌលវេជ្ជសាស្ត្រហេប្រុន",
+        "wheelchair": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 465350888,
+      "center": {
+        "lat": 14.0660814,
+        "lon": 103.0969282
+      },
+      "tags": {
+        "amenity": "hospital",
+        "check_date": "2025-11-24",
+        "healthcare": "hospital",
+        "name": "Banteay Chhmar Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 475847004,
+      "center": {
+        "lat": 10.5617198,
+        "lon": 104.4694083
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែក កំពង់ត្រាច",
+        "name:en": "Kampong Trach Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 476113818,
+      "center": {
+        "lat": 12.0553495,
+        "lon": 105.0726184
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែក ជើងព្រៃ",
+        "name:en": "Cheung Prey Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 477403894,
+      "center": {
+        "lat": 12.0126726,
+        "lon": 105.4264482
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "landuse": "military",
+        "name": "Military Region II Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 485572642,
+      "center": {
+        "lat": 11.0859745,
+        "lon": 105.8024739
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Svay Rieng Provincial Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 485593672,
+      "center": {
+        "lat": 11.0660968,
+        "lon": 105.8082871
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Basac Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 488803639,
+      "center": {
+        "lat": 13.7523402,
+        "lon": 106.9805472
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Referral Hospital of Ratanakiri"
+      }
+    },
+    {
+      "type": "way",
+      "id": 494449650,
+      "center": {
+        "lat": 10.9083487,
+        "lon": 104.7323102
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព ខ្វាវ",
+        "name:en": "Kvaov Health Centre"
+      }
+    },
+    {
+      "type": "way",
+      "id": 496677208,
+      "center": {
+        "lat": 11.6864938,
+        "lon": 104.955489
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មណ្ឌលសុខភាព កោះដាច់",
+        "name:en": "Koh Dach Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 497383605,
+      "center": {
+        "lat": 11.6596174,
+        "lon": 104.7846904
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "មណ្ឌលសុខភាព ពញាពន់",
+        "name:en": "Ponhea Pon Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 499482241,
+      "center": {
+        "lat": 10.9884074,
+        "lon": 104.7836659
+      },
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "គ្លីនិក រ៉ាក់",
+        "name:en": "RHAC Clinic",
+        "name:es": "Clínica RHAC"
+      }
+    },
+    {
+      "type": "way",
+      "id": 503047076,
+      "center": {
+        "lat": 11.5822756,
+        "lon": 104.8471305
+      },
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "healthcare": "hospital",
+        "name": "មន្ទីរសំរាកព្យាបាល & សម្ភព ឯក សុវណ្ណមុនី",
+        "name:en": "Ek Sovann Mony Clinic & Maternity",
+        "name:fr": "Ek Sovann Mony Clinic & Maternité",
+        "name:km": "មន្ទីរសំរាកព្យាបាល & សម្ភព ឯក សុវណ្ណមុនី"
+      }
+    },
+    {
+      "type": "way",
+      "id": 507576534,
+      "center": {
+        "lat": 13.5222337,
+        "lon": 103.0215093
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 516104179,
+      "center": {
+        "lat": 12.476516,
+        "lon": 106.0225323
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kratie Refferal Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 538631439,
+      "center": {
+        "lat": 12.2502414,
+        "lon": 104.6698251
+      },
+      "tags": {
+        "addr:street": "ផ្លូវ​ជាតិ​លេខ​៥",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែកខេត្តកំពង់ឆ្នាំង",
+        "name:en": "Kampong Chhnang Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 544723808,
+      "center": {
+        "lat": 13.2454788,
+        "lon": 104.1206405
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Saut Nikum Referal Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 561746525,
+      "center": {
+        "lat": 11.5812076,
+        "lon": 104.9311356
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sunrise Japan Hospital Phnom Penh",
+        "name:km": "មន្ទីរពេទ្យជប៉ុនសាន់រ៉ាយស៍",
+        "name:zh-Hans": "日升日本医院 金边",
+        "name:zh-Hant": "日升日本醫院 金邊",
+        "website": "https://www.sunrise-hs.com/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 614365788,
+      "center": {
+        "lat": 11.6194666,
+        "lon": 104.9125133
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មន្ទីរពេទ្យបង្អែកសម្តេចឳ",
+        "name:en": "Samdech Euv Referral Hospital",
+        "name:km": "មន្ទីរពេទ្យបង្អែកសម្តេចឳ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 647981612,
+      "center": {
+        "lat": 11.4734142,
+        "lon": 104.5435461
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 691385242,
+      "center": {
+        "lat": 11.9484767,
+        "lon": 105.4014113
+      },
+      "tags": {
+        "addr:city": "Kampong Cham",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Koh Roka Knong health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 916803500,
+      "center": {
+        "lat": 11.454861,
+        "lon": 104.9956103
+      },
+      "tags": {
+        "addr:city": "ស្វាយរលំ",
+        "addr:street": "ផ្លូវជាតិលេខ២១A",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មណ្ឌលសុខភាពស្វាយរលំ",
+        "name:en": "Svay Ro Lum Health Center",
+        "name:km": "មណ្ឌលសុខភាពស្វាយរលំ"
+      }
+    },
+    {
+      "type": "way",
+      "id": 923230002,
+      "center": {
+        "lat": 11.4970886,
+        "lon": 104.858412
+      },
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:full": "Prey Sor, វិថី អ៊ុងប៉ូគុណ (១០៩), Phnom Penh",
+        "addr:housenumber": "109",
+        "addr:postcode": "12000",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "healthcare:speciality": "oncology",
+        "name": "មន្ទីរពេទ្យ​ ហ្លួងម៉ែ",
+        "name:en": "Luang Me Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 944745920,
+      "center": {
+        "lat": 13.7678258,
+        "lon": 105.4064833
+      },
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic",
+        "name:en": "Chhep Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 979456715,
+      "center": {
+        "lat": 11.4835561,
+        "lon": 105.324112
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Prey Veng Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 985690077,
+      "center": {
+        "lat": 13.3569848,
+        "lon": 103.9226503
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009545224,
+      "center": {
+        "lat": 10.7730852,
+        "lon": 104.6600153
+      },
+      "tags": {
+        "addr:city": "Tani Commune",
+        "addr:postcode": "070411",
+        "amenity": "hospital",
+        "area": "yes",
+        "healthcare": "hospital",
+        "name": "Angkorchey Referral Hospital",
+        "name:km": "មន្ទីរពេទ្យបង្អែកអង្គរជ័យ",
+        "website": "https://business.facebook.com/angkorcheyreferralhospital/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1009549867,
+      "center": {
+        "lat": 10.772656,
+        "lon": 104.6600394
+      },
+      "tags": {
+        "addr:city": "Tani Commune",
+        "addr:postcode": "070411",
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Tani Health Center",
+        "name:km": "មណ្ឌលសុខភាព តានី"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037503417,
+      "center": {
+        "lat": 12.5453429,
+        "lon": 103.9196792
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Pursat Hospital",
+        "name:km": "មន្ទីពេទ្យខេត្តពោធិ៏សាត់"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1037892466,
+      "center": {
+        "lat": 11.8897896,
+        "lon": 105.7776224
+      },
+      "tags": {
+        "amenity": "hospital",
+        "fixme": "approximate position",
+        "healthcare": "hospital",
+        "name": "Tbong Khmum Cambodia-China Friendship Hospital",
+        "source": "https://construction-property.com/us50-million-cambodia-china-friendship-hospital-tbong-khmum-officially-inaugurated/"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1042082473,
+      "center": {
+        "lat": 11.5599259,
+        "lon": 104.9347836
+      },
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes",
+        "building:levels": "11",
+        "healthcare": "hospital",
+        "start_date": "2009"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1065104338,
+      "center": {
+        "lat": 13.5015208,
+        "lon": 103.6141363
+      },
+      "tags": {
+        "amenity": "hospital",
+        "name": "Sasarsdam Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1078950069,
+      "center": {
+        "lat": 12.0246994,
+        "lon": 105.4153326
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1089182388,
+      "center": {
+        "lat": 13.7578859,
+        "lon": 107.1045615
+      },
+      "tags": {
+        "amenity": "hospital",
+        "building": "yes"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1106034759,
+      "center": {
+        "lat": 11.883925,
+        "lon": 105.1553994
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "មណ្ឌលសុខភាពព្រែកដំបូក",
+        "name:en": "Prek Dambok Health Center",
+        "name:km": "មណ្ឌលសុខភាពព្រែកដំបូក"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1157104784,
+      "center": {
+        "lat": 11.5683573,
+        "lon": 104.8968256
+      },
+      "tags": {
+        "addr:city": "Phnom Penh",
+        "addr:housenumber": "100",
+        "addr:postcode": "120401",
+        "addr:street": "មហាវិថី សហព័ន្ធរុស្ស៊ី",
+        "amenity": "hospital",
+        "emergency": "yes",
+        "healthcare": "hospital",
+        "healthcare:speciality": "paediatrics",
+        "name": "មន្ទីរពេទ្យកុមារជាតិ",
+        "name:en": "National Pediatric Hospital",
+        "operator:type": "public"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1197251272,
+      "center": {
+        "lat": 11.5273858,
+        "lon": 104.9364506
+      },
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "healthcare": "clinic"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1300793299,
+      "center": {
+        "lat": 12.2942141,
+        "lon": 105.6189189
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Krouch Chhmar District Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1312434054,
+      "center": {
+        "lat": 11.6216728,
+        "lon": 104.8123547
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1335866997,
+      "center": {
+        "lat": 14.2373881,
+        "lon": 104.7432299
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Sra'aem Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1396132150,
+      "center": {
+        "lat": 13.7963074,
+        "lon": 104.9807739
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "16 Makara Provincial Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1417692821,
+      "center": {
+        "lat": 14.3372799,
+        "lon": 103.369896
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450158190,
+      "center": {
+        "lat": 12.5356968,
+        "lon": 103.9266091
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Prey Nhey Helth Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450663692,
+      "center": {
+        "lat": 12.4840105,
+        "lon": 103.91748
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1450860216,
+      "center": {
+        "lat": 12.6192619,
+        "lon": 104.0594154
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kanh Chor Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1457666764,
+      "center": {
+        "lat": 13.8051637,
+        "lon": 102.9640389
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1468274775,
+      "center": {
+        "lat": 13.1609252,
+        "lon": 103.2314296
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name:en": "Ek Phnom Referral Hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551239424,
+      "center": {
+        "lat": 13.818314,
+        "lon": 104.6983431
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital",
+        "name": "Kulen Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1551271853,
+      "center": {
+        "lat": 11.6623501,
+        "lon": 104.7444167
+      },
+      "tags": {
+        "amenity": "hospital",
+        "healthcare": "hospital"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1561435303,
+      "center": {
+        "lat": 11.5507728,
+        "lon": 104.9206625
+      },
+      "tags": {
+        "amenity": "clinic",
+        "building": "yes",
+        "name": "华夏医院"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1564201783,
+      "center": {
+        "lat": 11.602367,
+        "lon": 104.8162195
+      },
+      "tags": {
+        "amenity": "hospital",
+        "barrier": "wall",
+        "name": "មណ្ឌលសុខភាពគោករកា",
+        "name:en": "Kork Roka Health Center"
+      }
+    },
+    {
+      "type": "way",
+      "id": 1570250057,
+      "center": {
+        "lat": 11.0905787,
+        "lon": 105.3845005
+      },
+      "tags": {
+        "amenity": "hospital"
+      }
+    }
+  ]
+}
