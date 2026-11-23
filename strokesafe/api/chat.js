@@ -1,6 +1,7 @@
 const MODELS = [
   process.env.GEMINI_MODEL || 'gemini-3.8-flash',
-  'gemini-3.8-flash-lite', // backup; check the exact name in AI Studio's model list
+  'gemini-3.7-flash',
+  'gemini-3.5-flash-lite',
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
