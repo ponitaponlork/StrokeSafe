@@ -1,0 +1,168 @@
+/*
+  StrokeSafe Cambodia: design theme (colours, fonts, base styles).
+  Requires Tailwind CSS v4. Import this file AFTER `@import "tailwindcss";` in your main CSS file.
+  The @theme block creates Tailwind classes such as bg-ss-blue, text-ss-ink, border-ss-line.
+*/
+
+/* ---------- Fonts (files live in /public/fonts) ---------- */
+/* Supplied: MiSans Khmer Heavy (the ONLY MiSans Khmer weight in /public/fonts).
+   Used for Khmer headings, buttons, navigation labels and other bold UI text.
+   It is declared for the bold range only (600–900), so the browser never stretches
+   the Heavy cut onto normal-weight body text. Khmer body text uses the device's Khmer
+   font until MiSans Khmer Regular/Medium are supplied (see "SS Khmer Text" below). */
+@font-face {
+  font-family: "SS Khmer Display";
+  src: url("/fonts/MiSansKhmer-Heavy.woff") format("woff"),
+       url("/fonts/MiSansKhmer-Heavy.otf") format("opentype");
+  font-weight: 600 900;
+  font-style: normal;
+  font-display: swap;
+  unicode-range: U+1780-17FF, U+19E0-19FF, U+200B-200D, U+25CC;
+}
+/* Khmer BODY text: waiting for the MiSans Khmer Regular / Medium files.
+   Put them in /public/fonts with these names. Until then, the phone's own Khmer font is used. */
+/* Disabled until the files exist (a missing file causes a console error on every page load).
+   When you add them to /public/fonts, remove the comment markers.
+@font-face {
+  font-family: "SS Khmer Text";
+  src: url("/fonts/MiSansKhmer-Regular.otf") format("opentype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: "SS Khmer Text";
+  src: url("/fonts/MiSansKhmer-Medium.otf") format("opentype");
+  font-weight: 500 600;
+  font-display: swap;
+}
+*/
+
+@theme {
+  /* Brand blues, taken from the StrokeSafe logo */
+  --color-ss-blue: #2f64f0;        /* primary ("Safe" in the logo) */
+  --color-ss-blue-dark: #2449d6;   /* pressed / hover */
+  --color-ss-blue-50: #f1f5ff;     /* light section background */
+  --color-ss-blue-100: #e2eaff;
+  --color-ss-blue-200: #c7d6ff;
+  --color-ss-sky: #7dd3fc;         /* small accent (logo dot) */
+  /* Neutrals */
+  --color-ss-ink: #0f1a3b;         /* main text (navy in the logo) */
+  --color-ss-muted: #5b6785;       /* secondary text */
+  --color-ss-line: #e6ecf5;        /* borders */
+  --color-ss-canvas: #f7f9fc;      /* page background */
+  /* Emergency: red is used ONLY for emergency elements */
+  --color-ss-red: #d92d20;
+  --color-ss-red-dark: #b42318;
+  --color-ss-red-50: #fef3f2;
+  /* Status */
+  --color-ss-green: #12805c;
+  --color-ss-amber: #b54708;
+
+  --font-en: "Poppins", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  /* Khmer stacks: Poppins first (it has no Khmer letters, so it only styles Latin letters and numbers),
+     then the Khmer body font, then the phone's Khmer fonts, and finally the supplied MiSans Khmer Heavy,
+     so Khmer always renders correctly even on a device with no Khmer font. */
+  --font-km: "Poppins", "SS Khmer Text", "Noto Sans Khmer", "Khmer OS System", "Khmer UI", "Leelawadee UI", "SS Khmer Display", sans-serif;
+  --font-km-display: "Poppins", "SS Khmer Display", "Noto Sans Khmer", "Khmer OS System", "Khmer UI", sans-serif;
+  /* Semibold Khmer UI text: MiSans Khmer Medium when supplied, otherwise the device font, then Heavy as a last resort */
+  --font-km-strong: "Poppins", "SS Khmer Text", "Noto Sans Khmer", "Khmer OS System", "Khmer UI", "Leelawadee UI", "SS Khmer Display", sans-serif;
+
+  --shadow-ss-card: 0 1px 2px rgb(15 26 59 / 0.04), 0 8px 24px -12px rgb(15 26 59 / 0.12);
+  --shadow-ss-float: 0 12px 32px -8px rgb(47 100 240 / 0.35);
+  --shadow-ss-sos: 0 10px 28px -6px rgb(217 45 32 / 0.55);
+}
+
+/* ---------- Base ---------- */
+html { -webkit-text-size-adjust: 100%; }
+body {
+  font-family: var(--font-en);
+  color: var(--color-ss-ink);
+  background: var(--color-ss-canvas);
+  font-size: 17px;              /* slightly larger than default: easier for older adults */
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Khmer script needs a Khmer font and more line height (stacked vowels and subscripts) */
+:lang(km) { font-family: var(--font-km); line-height: 1.8; font-synthesis-weight: none; }
+/* MiSans Khmer (Heavy) for headings and strong UI text: buttons, tabs, navigation labels, bold labels */
+:lang(km) :is(h1, h2, h3, h4, .ss-display) { font-family: var(--font-km-display); font-weight: 800; line-height: 1.55; }
+:lang(km) :is(button, .ss-btn, [role="tab"], .ss-nav-label, .font-bold, .font-black) { font-family: var(--font-km-display); }
+:lang(km) :is(.font-semibold) { font-family: var(--font-km-strong); }
+/* Big Latin-style tight leading clips Khmer subscripts: give Khmer headings room */
+:lang(km) :is(h1, h2, h3, h4)[class*="leading-"] { line-height: 1.55; }
+:lang(km) :is(.text-4xl, .text-5xl) { line-height: 1.45; }
+/* Small Khmer text needs a little more space between lines */
+:lang(km) :is(.text-xs, .text-sm) { line-height: 1.75; }
+/* Uppercase/letter-spacing has no meaning in Khmer and breaks clusters */
+:lang(km) :is(.uppercase) { text-transform: none; letter-spacing: 0; }
+:lang(en) :is(h1, h2, h3, .ss-display) { letter-spacing: -0.01em; }
+
+/* Visible keyboard focus for accessibility */
+:focus-visible { outline: 3px solid var(--color-ss-blue-200); outline-offset: 2px; border-radius: 12px; }
+
+/* Subtle motion, switched off for people who prefer reduced motion */
+@keyframes ss-fade-up { from { opacity: 0; transform: translateY(6px); } to { opacity: 1; transform: none; } }
+.ss-fade-up { animation: ss-fade-up 0.28s ease-out both; }
+@keyframes ss-pulse-ring { 0% { box-shadow: 0 0 0 0 rgb(255 255 255 / 0.55); } 100% { box-shadow: 0 0 0 18px rgb(255 255 255 / 0); } }
+.ss-pulse { animation: ss-pulse-ring 1.6s ease-out infinite; }
+/* Scroll reveal on the Home page */
+.ss-reveal { opacity: 0; transform: translateY(14px); transition: opacity 0.5s ease-out, transform 0.5s ease-out; }
+.ss-reveal.is-shown { opacity: 1; transform: none; }
+html { scroll-behavior: smooth; }
+@media (prefers-reduced-motion: reduce) {
+  html { scroll-behavior: auto; }
+  .ss-reveal { opacity: 1; transform: none; transition: none; }
+  .ss-fade-up, .ss-pulse { animation: none; }
+  * { transition-duration: 0ms !important; }
+}
+
+/* Legacy: space for the old fixed bottom navigation (still used by /preview.html only) */
+.ss-safe-bottom { padding-bottom: calc(6.5rem + env(safe-area-inset-bottom)); }
+
+/* Khmer hero headline: Khmer words are long and the Heavy face is wide, so it is set smaller than English */
+:lang(km) .ss-hero-title { font-size: 1.625rem; line-height: 1.6; }
+@media (min-width: 640px) { :lang(km) .ss-hero-title { font-size: 2rem; } }
+@media (min-width: 1280px) { :lang(km) .ss-hero-title { font-size: 2.25rem; } }
+
+/* Home hero brain: gentle float with a very slight 3D tilt */
+.ss-brain-stage {
+  perspective: 900px;
+}
+
+.ss-brain {
+  transform-origin: 50% 60%;
+  animation: ss-brain-float 7s ease-in-out infinite;
+  filter: drop-shadow(0 24px 32px rgb(47 100 240 / 0.16));
+}
+
+@keyframes ss-brain-float {
+  0%, 100% {
+    transform: translateY(0) rotateX(3deg) rotateY(-5deg);
+  }
+  50% {
+    transform: translateY(-14px) rotateX(-2deg) rotateY(5deg);
+  }
+}
+
+.ss-brain-shadow {
+  animation: ss-brain-shadow 7s ease-in-out infinite;
+}
+
+@keyframes ss-brain-shadow {
+  0%, 100% {
+    transform: translateX(-50%) scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: translateX(-50%) scale(0.86);
+    opacity: 0.65;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ss-brain,
+  .ss-brain-shadow {
+    animation: none;
+  }
+}
