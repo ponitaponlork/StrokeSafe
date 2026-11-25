@@ -9,8 +9,9 @@ import AppShell, { PageTitle } from "../components/AppShell.jsx";
 import Card from "../components/ui/Card.jsx";
 import Icon from "../components/ui/Icon.jsx";
 import Button from "../components/ui/Button.jsx";
+import { OPEN_DATA, formatOpenDataNumber } from "../data/openData.js";
 
-const STEPS_NEVER_MEASURED = 30.3; // STEPS 2023, Table 35: adults 18-69 never had BP measured
+const STEPS = OPEN_DATA.steps2023;
 
 function Select({ label, value, onChange, options }) {
   return (
@@ -147,7 +148,7 @@ export default function PartnerScreen() {
 
       <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
         <Tile label={t("partner.tile.checks")} value={agg.total.toLocaleString()} note={t("partner.tile.checksNote", { n: WEEKS })} />
-        <Tile label={t("partner.tile.bpUnknown")} value={fmt(agg.bpUnknown)} note={t("partner.tile.bpUnknownNote", { pct: STEPS_NEVER_MEASURED })} />
+        <Tile label={t("partner.tile.bpUnknown")} value={fmt(agg.bpUnknown)} note={t("partner.tile.bpUnknownNote", { pct: formatOpenDataNumber(STEPS.bloodPressureNeverMeasured.value, lang) })} />
         <Tile label={t("partner.tile.tobacco")} value={fmt(agg.tobacco)} />
         <Tile label={t("partner.tile.events")} value={`${totals.taps} / ${totals.searches}`} note={t("partner.tile.eventsNote")} />
       </div>
@@ -172,7 +173,8 @@ export default function PartnerScreen() {
         {summary?.error && <p className="mt-3 rounded-2xl border border-amber-200 bg-amber-50 p-3 text-sm font-semibold text-ss-amber">{t("partner.ai.unavailable")}</p>}
       </Card>
 
-      <p className="mt-4 text-xs text-ss-muted">{t("partner.context")}</p>
+      <p className="mt-4 text-xs text-ss-muted">{t("partner.context", { raisedPct: formatOpenDataNumber(STEPS.raisedBloodPressure.value, lang), neverPct: formatOpenDataNumber(STEPS.bloodPressureNeverMeasured.value, lang) })} <a className="font-semibold text-ss-blue underline" href={STEPS.source.url} target="_blank" rel="noopener noreferrer">{t("openData.sourceLink", { source: STEPS.source.short })}</a></p>
+      <p className="mt-1 text-xs text-ss-muted">{t("partner.contextCaveat")}</p>
     </AppShell>
   );
 }
