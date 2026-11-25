@@ -259,7 +259,7 @@ Contributions are welcome, especially from clinicians, Khmer-language reviewers,
 
 ## License
 
-<!-- Choose a license (e.g. MIT, Apache-2.0) and add a LICENSE file. Check data-source licences separately. -->
+Original StrokeSafe software is licensed under the [MIT License](LICENSE). Third-party datasets, fonts, maps, logos, and other assets may have separate terms; this license does not change those terms. Check each source's license before reusing those materials.
 
 ## Acknowledgements and sources
 
