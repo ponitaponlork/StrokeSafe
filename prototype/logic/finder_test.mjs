@@ -1,6 +1,5 @@
 // Tests for finder.mjs (Build Guide B9).  Run with:  node finder_test.mjs
-// Needs finder.mjs and distance.mjs in the same folder. If facilities.json is next to this file
-// (or in ../data/), the last test also checks your REAL facility list.
+// Needs finder.mjs and distance.mjs in the same folder. The last test also checks the real data list.
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import {
@@ -155,7 +154,7 @@ test("result fields the screen needs are present", () => {
 
 // ---------------------------------------------------------------- your real data
 test("REAL DATA: emergency results near central Phnom Penh are hospitals, not offices or companies", () => {
-  const candidates = ["./facilities.json", "../data/facilities.json"].map((p) => new URL(p, import.meta.url));
+  const candidates = ["../data/facilities.json"].map((p) => new URL(p, import.meta.url));
   const file = candidates.find((u) => fs.existsSync(u));
   if (!file) return console.log("        (skipped: facilities.json not found next to this file)");
   const facilities = JSON.parse(fs.readFileSync(file, "utf8"));

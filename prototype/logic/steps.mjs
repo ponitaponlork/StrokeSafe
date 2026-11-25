@@ -9,9 +9,9 @@
 //   S13      (About)            ->  sourceOf(id) for the source list.
 //
 // The numbers themselves live in data/open_data_numbers.csv (edit there, then run
-// prototypes/build_open_data.py). Never type a statistic into a screen by hand.
+// prototype/tools/build_open_data.mjs). Never type a statistic into a screen by hand.
 
-import { NUMBERS_BY_ID, SOURCES } from "./open_data_numbers.mjs";
+import { NUMBERS_BY_ID, SOURCES } from "../data/open_data_numbers.mjs";
 import { toNumber } from "./risk.mjs";
 
 /** One number (with label, unit, group, source, check status ...). Throws if the id does not exist. */

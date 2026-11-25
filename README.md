@@ -12,6 +12,7 @@ Built for the **Open Data × AI Venture Hackathon 1.0** (screening-stage submiss
 
 ## Table of contents
 
+- [Repository layout](#repository-layout)
 - [Why StrokeSafe](#why-strokesafe)
 - [Scope](#scope)
 - [Features](#features)
@@ -28,6 +29,19 @@ Built for the **Open Data × AI Venture Hackathon 1.0** (screening-stage submiss
 - [Team](#team)
 - [License](#license)
 - [Acknowledgements and sources](#acknowledgements-and-sources)
+
+---
+
+## Repository layout
+
+- `strokesafe/` is the runnable React/Vite app implementing the Check, Act, and Connect modules. Its README has app setup and deployment notes.
+- `prototype/logic/` holds standalone risk, plan, and facility-finder logic and tests, aligned with build-guide sections B5–B9 and B13.
+- `prototype/data/` holds open-data numbers, the facility list, and source exports used by the standalone tools.
+- `prototype/dashboard/` contains the standalone partner dashboard and synthetic demo data (B11).
+- `prototype/tools/` contains scripts that regenerate data files.
+- The root README covers the project rationale and evidence (Part A). Submission slides and video are not stored here yet (Part C).
+
+For current app commands, use `strokesafe/README.md`.
 
 ---
 
@@ -128,47 +142,23 @@ Performance target: first load under 1 MB, tested on a low-cost Android phone.
 
 ## Getting started
 
-> The commands below assume the standard Vite + React setup. Adjust them to match the repository as it develops.
+### Run the web app
+
+Install Node.js (npm is included), open a terminal in the repository, then run:
 
 ```bash
-# Clone
-git clone https://github.com/<your-org>/strokesafe-cambodia.git
-cd strokesafe-cambodia
-
-# Install
+cd strokesafe
 npm install
-
-# Configure environment (server-side only; never expose this key in the browser)
-cp .env.example .env
-# then set your language model API key in .env
-
-# Run locally
 npm run dev
-
-# Run the risk-logic tests
-npm test
-
-# Production build
-npm run build
 ```
 
-### Suggested project layout
+Open the local URL printed by Vite, usually `http://localhost:5173`. Leave that terminal running while you use the app; press `Ctrl+C` to stop it. The app runs without API keys, though the AI assistant and Google Maps integrations need their optional environment variables to work.
 
-```
-.
-├── src/
-│   ├── screens/          # S0-S13
-│   ├── logic/            # risk rules (pure functions) + tests
-│   ├── i18n/             # km.json, en.json
-│   └── components/
-├── data/
-│   ├── facilities.json   # facility finder data (capabilities default to "unknown")
-│   ├── content.json      # plan, FAST, salt guide, etc.
-│   └── steps2023.json    # STEPS 2023 reference numbers
-├── api/
-│   └── assistant.js      # serverless function: AI assistant + dashboard summary
-└── public/
-```
+From the `strokesafe/` directory, use `npm test` to run checks or `npm run build` to create a production build in `strokesafe/dist/`.
+
+### Run the standalone demos
+
+The dashboard demo can be opened directly in a browser at `prototype/dashboard/dashboard.html`. From the repository root, run the standalone checks with `node prototype/logic/distance.test.mjs`, `node prototype/logic/risk.test.mjs`, `node prototype/logic/finder_test.mjs`, and `node prototype/logic/test_plan.mjs`. Regenerate the synthetic dashboard sample with `node prototype/dashboard/make_dashboard_sample.mjs`. To rebuild the open-data files after editing `prototype/data/open_data_numbers.csv`, run `node prototype/tools/build_open_data.mjs`.
 
 ## Data and open-data sources
 

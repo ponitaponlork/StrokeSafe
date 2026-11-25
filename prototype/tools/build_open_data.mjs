@@ -1,13 +1,12 @@
 // build_open_data.mjs -- turn open_data_numbers.csv into files the app can use.
 // (Node port of build_open_data.py. Same checks, same output files.)
 //
-// Usage:   node build_open_data.mjs
+// Usage:   node prototype/tools/build_open_data.mjs (from the repository root)
 // Reads :  open_data_numbers.csv        (open in Excel / Google Sheets to check and edit)
 // Writes:  open_data_numbers.mjs        (imported by steps.mjs and the app)
 //          open_data_numbers.json       (same data as JSON)
 //
-// By default every file sits in the SAME folder as this script (flat repo).
-// If your CSV lives elsewhere, change the three paths below.
+// The editable CSV and generated data files live in ../data/ beside the logic and dashboard folders.
 //
 // Team workflow: when someone compares a number with the original source they set check_status to
 // "verified" and fill in checked_by and checked_on, then run this script again.
@@ -17,9 +16,10 @@ import path from "node:path";
 import { fileURLToPath } from "node:url";
 
 const HERE = path.dirname(fileURLToPath(import.meta.url));
-const CSV_PATH = path.join(HERE, "open_data_numbers.csv");
-const MJS_PATH = path.join(HERE, "open_data_numbers.mjs");
-const JSON_PATH = path.join(HERE, "open_data_numbers.json");
+const DATA_DIR = path.resolve(HERE, "../data");
+const CSV_PATH = path.join(DATA_DIR, "open_data_numbers.csv");
+const MJS_PATH = path.join(DATA_DIR, "open_data_numbers.mjs");
+const JSON_PATH = path.join(DATA_DIR, "open_data_numbers.json");
 
 const SOURCES = {
   steps2023: {

@@ -78,7 +78,7 @@ const LEVELS = [["LOWER", "Lower", "var(--lower)"], ["MODERATE", "Moderate", "va
 const HIDDEN = "hidden (under 30)";
 const sum = (a) => a.reduce((x, y) => x + y, 0);
 
-if (!D) { document.body.innerHTML = "<p>dashboard_sample.js was not found. Run prototypes/make_dashboard_sample.py first.</p>"; throw new Error("no data"); }
+if (!D) { document.body.innerHTML = "<p>dashboard_sample.js was not found. Run node make_dashboard_sample.mjs from this folder.</p>"; throw new Error("no data"); }
 $("banner").textContent = D.banner;
 
 const fill = (id, items) => { $(id).innerHTML = items.map(([v, t]) => `<option value="${v}">${t}</option>`).join(""); };
