@@ -1,9 +1,9 @@
 /**
  * build_facilities.mjs -- turn an OpenStreetMap (Overpass) export into facilities.json (B9 schema)
  *
- * Usage (from the folder containing this file):
- *     node build_facilities.mjs ../data/raw/overpass_export.json
- *     node build_facilities.mjs ../data/raw/overpass_export.json --limit 40 --must "Calmette,Kossamak"
+ * Usage (from the repository root):
+ *     node prototype/tools/build_facilities.mjs path/to/overpass_export.json
+ *     node prototype/tools/build_facilities.mjs path/to/overpass_export.json --limit 40 --must "Calmette,Kossamak"
  *
  * Options:
  *     --limit N        how many facilities to keep (default 20)
@@ -22,7 +22,7 @@
  *      records what the phone calls confirmed (type, province, phones, emergency, CT scan, ...).
  *   5. Keeps the --must names, reserves a few blood pressure places, then fills up with hospitals
  *      (hospitals that OpenStreetMap tags as having emergency care come first) until --limit is reached.
- *   6. Writes ../data/facilities.json
+ *   6. Writes prototype/data/facilities.json by default
  *
  * Everything that was not confirmed by a phone call stays "unknown" and verified = false.
  * Never change "unknown" to "yes" unless someone has actually checked.
@@ -35,9 +35,10 @@
 import fs from "node:fs";
 import path from "node:path";
 import { parseArgs } from "node:util";
-import { pathToFileURL } from "node:url";
+import { fileURLToPath, pathToFileURL } from "node:url";
 
 const SOURCE_TEXT = "OpenStreetMap contributors (ODbL)";
+const DATA_DIR = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "../data");
 
 // B9 facility types. OpenStreetMap only tells us hospital / private hospital / clinic / health
 // centre / pharmacy. National, provincial and district hospitals must come from the overrides file.
@@ -310,8 +311,8 @@ function main() {
   const { values, positionals } = parseArgs({
     allowPositionals: true,
     options: {
-      output: { type: "string", default: "../data/facilities.json" },
-      overrides: { type: "string", default: "../data/facility_overrides.csv" },
+      output: { type: "string", default: path.join(DATA_DIR, "facilities.json") },
+      overrides: { type: "string", default: path.join(DATA_DIR, "facility_overrides.csv") },
       limit: { type: "string", default: "20" },
       must: { type: "string", default: "" },
       "bp-places": { type: "string", default: "5" },

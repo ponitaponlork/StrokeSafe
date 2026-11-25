@@ -1,7 +1,7 @@
 // make_dashboard_sample.mjs -- makes SYNTHETIC demo data for the dashboard (S12). These are NOT real users.
 // (Node port of make_dashboard_sample.py.)
 //
-// Usage:   node make_dashboard_sample.mjs      (needs risk.mjs in the same folder)
+// Usage:   node make_dashboard_sample.mjs      (from this folder)
 // Writes:  dashboard_sample.js     (loaded by dashboard.html)
 //          dashboard_sample.json   (same data, for other tools)
 //
@@ -10,11 +10,11 @@
 // The data is anonymous by design: only week, age band, sex, province, level and two yes/no flags.
 // The seed makes the result identical every run.
 //
-// All files sit in the same folder as this script. Change DIR below if yours are elsewhere.
+// Generated dashboard files sit beside this script; source numbers and risk rules stay in their own folders.
 import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
-import * as riskModule from "./risk.mjs";
+import * as riskModule from "../logic/risk.mjs";
 
 // Accepts calculateRisk (or calculate_risk / default export) from risk.mjs; it must return { level }.
 const calculateRisk = riskModule.calculateRisk ?? riskModule.calculate_risk ?? riskModule.default;
@@ -22,7 +22,7 @@ if (typeof calculateRisk !== "function")
   throw new Error("risk.mjs must export a function named calculateRisk (see the import at the top of this file).");
 
 const DIR = path.dirname(fileURLToPath(import.meta.url));
-const NUMBERS_JSON = path.join(DIR, "open_data_numbers.json");
+const NUMBERS_JSON = path.join(DIR, "../data/open_data_numbers.json");
 const OUT_JS = path.join(DIR, "dashboard_sample.js");
 const OUT_JSON = path.join(DIR, "dashboard_sample.json");
 
