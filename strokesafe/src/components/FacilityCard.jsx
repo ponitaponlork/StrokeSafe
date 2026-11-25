@@ -85,7 +85,7 @@ export default function FacilityCard({ facility: f, rank, mode = "bp", dark = fa
           {t("care.openMaps")}
         </a>
       </div>
-      <p className="mt-2 text-xs text-ss-muted">{t("care.source")}: {f.source}</p>
+      <p className="mt-2 text-xs text-ss-muted">{t("care.source")}: {f.sourceUrl ? <a className="underline decoration-dotted underline-offset-2 hover:text-ss-blue" href={f.sourceUrl} target="_blank" rel="noopener noreferrer">{f.source}</a> : f.source}</p>
     </article>
   );
 }

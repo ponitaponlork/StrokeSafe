@@ -36,7 +36,7 @@ Built for the **Open Data × AI Venture Hackathon 1.0** (screening-stage submiss
 
 - `strokesafe/` is the runnable React/Vite app implementing the Check, Act, and Connect modules. Its README has app setup and deployment notes.
 - `prototype/logic/` holds standalone risk, plan, and facility-finder logic and tests, aligned with build-guide sections B5–B9 and B13.
-- `prototype/data/` holds open-data numbers, the facility list, and source exports used by the standalone tools.
+- `prototype/data/` holds open-data numbers, the facility list, and source exports. The open-data generator also produces the module used by the app.
 - `prototype/dashboard/` contains the standalone partner dashboard and synthetic demo data (B11).
 - `prototype/tools/` contains scripts that regenerate data files.
 - The root README covers the project rationale and evidence (Part A). Submission slides and video are not stored here yet (Part C).
@@ -158,7 +158,7 @@ From the `strokesafe/` directory, use `npm test` to run checks or `npm run build
 
 ### Run the standalone demos
 
-The dashboard demo can be opened directly in a browser at `prototype/dashboard/dashboard.html`. From the repository root, run the standalone checks with `node prototype/logic/distance.test.mjs`, `node prototype/logic/risk.test.mjs`, `node prototype/logic/finder_test.mjs`, and `node prototype/logic/test_plan.mjs`. Regenerate the synthetic dashboard sample with `node prototype/dashboard/make_dashboard_sample.mjs`. To rebuild the open-data files after editing `prototype/data/open_data_numbers.csv`, run `node prototype/tools/build_open_data.mjs`.
+The dashboard demo can be opened directly in a browser at `prototype/dashboard/dashboard.html`. From the repository root, run the standalone checks with `node prototype/logic/distance.test.mjs`, `node prototype/logic/risk.test.mjs`, `node prototype/logic/finder_test.mjs`, and `node prototype/logic/test_plan.mjs`. Regenerate the synthetic dashboard sample with `node prototype/dashboard/make_dashboard_sample.mjs`. After editing `prototype/data/open_data_numbers.csv`, run `node prototype/tools/build_open_data.mjs` to regenerate the data files and the app’s `strokesafe/src/data/openDataNumbers.js` module.
 
 ## Data and open-data sources
 

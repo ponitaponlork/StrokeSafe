@@ -9,6 +9,7 @@ import AppShell, { PageTitle } from "../components/AppShell.jsx";
 import Button from "../components/ui/Button.jsx";
 import Card from "../components/ui/Card.jsx";
 import Icon from "../components/ui/Icon.jsx";
+import { OPEN_DATA, formatOpenDataNumber } from "../data/openData.js";
 
 /** Shares the FAST card as text (works in Telegram, Messenger, SMS). Falls back to copying. */
 export async function shareFastCard(t) {
@@ -120,7 +121,9 @@ export default function LearnScreen() {
       <section id="salt" className="mt-5 scroll-mt-20">
         <Card>
           <h2 className="flex items-center gap-2 text-xl font-bold"><Icon name="salt" className="h-6 w-6 text-ss-blue" />{t("learn.salt.title")}</h2>
-          <p className="mt-1">{t("learn.salt.intro")}</p>
+          <p className="mt-1">{t("learn.salt.intro", { avg: formatOpenDataNumber(OPEN_DATA.steps2023.meanSaltIntake.value, lang), limit: formatOpenDataNumber(OPEN_DATA.whoSaltLimitGramsPerDay, lang) })}</p>
+          <a className="mt-2 inline-block text-sm font-semibold text-ss-blue underline" href={OPEN_DATA.steps2023.source.url} target="_blank" rel="noopener noreferrer">{t("openData.sourceLink", { source: OPEN_DATA.steps2023.source.short })}</a>
+          <a className="ml-3 inline-block text-sm font-semibold text-ss-blue underline" href={OPEN_DATA.whoSaltGuidanceUrl} target="_blank" rel="noopener noreferrer">{t("openData.whoSourceLink")}</a>
           <p className="mt-3 font-semibold">{t("learn.salt.hiddenTitle")}</p>
           <div className="mt-2 flex flex-wrap gap-2">
             {["fishSauce", "soySauce", "prahok", "kapi", "powder", "saltedFish", "noodles", "pickles"].map((k) => (

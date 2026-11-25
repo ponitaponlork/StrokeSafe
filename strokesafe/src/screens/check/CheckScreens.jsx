@@ -15,6 +15,7 @@ import Icon from "../../components/ui/Icon.jsx";
 import ProgressBar from "../../components/ui/ProgressBar.jsx";
 import EmergencyBanner from "../../components/ui/EmergencyBanner.jsx";
 import Disclaimer from "../../components/Disclaimer.jsx";
+import { OPEN_DATA, formatOpenDataNumber } from "../../data/openData.js";
 import { answerText } from "./answerText.js";
 
 /* ---------- small pieces ---------- */
@@ -258,7 +259,7 @@ export function AboutCheckScreen() {
 /* ---------- S3 Questions ---------- */
 
 export function QuestionScreen({ id }) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const navigate = useNavigate();
   const params = useSearchParams();
   const fromReview = params.get("from") === "review";
@@ -326,7 +327,8 @@ export function QuestionScreen({ id }) {
 
       <section key={id} className="ss-fade-up">
         <h1 className="text-2xl font-bold leading-snug">{qText}</h1>
-        {q.help && <p className="mt-2 text-ss-muted">{t(`q.${id}.help`)}</p>}
+        {q.help && <p className="mt-2 text-ss-muted">{t(`q.${id}.help`, id === "Q4" ? { pct: formatOpenDataNumber(OPEN_DATA.steps2023.bloodPressureNeverMeasured.value, lang) } : undefined)}</p>}
+        {id === "Q4" && <a className="mt-1 inline-block text-sm font-semibold text-ss-blue underline" href={OPEN_DATA.steps2023.source.url} target="_blank" rel="noopener noreferrer">{t("openData.sourceLink", { source: OPEN_DATA.steps2023.source.short })}</a>}
 
         <div className="mt-5 flex flex-col gap-3">
           {q.type === "choice" && (

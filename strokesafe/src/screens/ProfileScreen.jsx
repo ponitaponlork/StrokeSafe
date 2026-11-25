@@ -16,6 +16,7 @@ import Disclaimer from "../components/Disclaimer.jsx";
 
 const SOURCES = [
   ["STEPS 2023", "Ministry of Health, Cambodia, with WHO. STEPS Survey Country Report 2023.", "https://cdn.who.int/media/docs/default-source/ncds/ncd-surveillance/data-reporting/cambodia/cambodia-2023-steps-report-english-final.pdf"],
+  ["WHO healthy diet", "Salt intake for adults: less than 5 g per day.", "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"],
   ["WHO 2025", "WHO Western Pacific: 1 in 5 Cambodian adults are at risk of stroke (11 March 2025).", "https://www.who.int/westernpacific/newsroom/feature-stories/item/1-in-5-cambodian-adults-are-at-risk-of-stroke-as-noncommunicable-disease-risks-increase"],
   ["WHO GHE 2021", "WHO Global Health Estimates 2021 (causes of death).", null],
   ["GBD 2019", "Stroke incidence, mortality, prevalence and DALYs in Asia 1990-2019 (Karger).", "https://karger.com/view-large/16232851"],

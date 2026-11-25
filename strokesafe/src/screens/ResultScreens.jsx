@@ -18,6 +18,7 @@ import Disclaimer from "../components/Disclaimer.jsx";
 import FacilityCard from "../components/FacilityCard.jsx";
 import LocationPicker from "../components/LocationPicker.jsx";
 import { shareFastCard } from "./LearnScreen.jsx";
+import { OPEN_DATA, formatOpenDataNumber } from "../data/openData.js";
 
 export const TONE = {
   green: { bg: "bg-emerald-50", border: "border-emerald-200", text: "text-ss-green", solid: "bg-ss-green" },
@@ -70,7 +71,7 @@ function ForWhom({ entry }) {
 /* ---------- S5 Result ---------- */
 
 export function ResultScreen({ id }) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const navigate = useNavigate();
   const entry = useStored(() => getScreening(id), [id]);
   if (!entry) return <NotFound />;
@@ -86,7 +87,8 @@ export function ResultScreen({ id }) {
         {r.flags.includes("NEEDS_BP") && (
           <p className="mt-3 flex items-start gap-2 rounded-2xl bg-ss-blue-50 p-3 font-semibold text-ss-blue">
             <Icon name="gauge" className="mt-0.5 h-5 w-5 shrink-0" />
-            {t("result.needsBp")}
+            <span>{t("result.needsBp", { pct: formatOpenDataNumber(OPEN_DATA.steps2023.bloodPressureNeverMeasured.value, lang) })}</span>
+            <a className="ml-1 underline" href={OPEN_DATA.steps2023.source.url} target="_blank" rel="noopener noreferrer">{t("openData.sourceLink", { source: OPEN_DATA.steps2023.source.short })}</a>
           </p>
         )}
       </section>
@@ -174,7 +176,7 @@ function NearestBlock({ mode = "bp", titleKey }) {
 }
 
 export function PlanScreen({ id }) {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const navigate = useNavigate();
   const entry = useStored(() => getScreening(id), [id]);
   if (!entry) return <NotFound />;
@@ -222,6 +224,9 @@ export function PlanScreen({ id }) {
       {plan.saltTips && (
         <Card tone="blue" className="mt-4">
           <h2 className="mb-2 flex items-center gap-2 font-bold"><Icon name="salt" className="h-5 w-5 text-ss-blue" />{t("salt.tipsTitle")}</h2>
+          <p className="mb-2 text-sm text-ss-muted">{t("salt.openDataContext", { avg: formatOpenDataNumber(OPEN_DATA.steps2023.meanSaltIntake.value, lang), limit: formatOpenDataNumber(OPEN_DATA.whoSaltLimitGramsPerDay, lang) })}</p>
+          <a className="mb-3 inline-block text-sm font-semibold text-ss-blue underline" href={OPEN_DATA.steps2023.source.url} target="_blank" rel="noopener noreferrer">{t("openData.sourceLink", { source: OPEN_DATA.steps2023.source.short })}</a>
+          <a className="mb-3 ml-3 inline-block text-sm font-semibold text-ss-blue underline" href={OPEN_DATA.whoSaltGuidanceUrl} target="_blank" rel="noopener noreferrer">{t("openData.whoSourceLink")}</a>
           <ul className="list-disc space-y-1 pl-5">
             {["1", "2", "3", "4"].map((n) => <li key={n}>{t(`salt.tip.${n}`)}</li>)}
           </ul>

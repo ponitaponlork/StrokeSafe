@@ -13,6 +13,7 @@ import { useStored } from "../lib/useStored.js";
 import AppShell from "../components/AppShell.jsx";
 import Button from "../components/ui/Button.jsx";
 import Icon from "../components/ui/Icon.jsx";
+import { OPEN_DATA, formatOpenDataNumber } from "../data/openData.js";
 
 const CONTAINER = "mx-auto w-full max-w-7xl px-4 sm:px-6 lg:px-10";
 
@@ -116,7 +117,7 @@ function Hero({ hasHistory }) {
 /* ---------- 2. About ---------- */
 
 function About() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   return (
     <section id="about" className={`${CONTAINER} py-16 sm:py-24`}>
       <div className="grid gap-12 lg:grid-cols-2 lg:items-center">
@@ -129,8 +130,8 @@ function About() {
           <div className="grid gap-4 sm:grid-cols-3 lg:grid-cols-1 xl:grid-cols-3">
             {[1, 2, 3].map((n) => (
               <div key={n} className="rounded-3xl border border-ss-line bg-white p-5 shadow-ss-card">
-                <p className="ss-display text-2xl font-bold text-ss-blue sm:text-3xl">{t(`home.about.fact${n}.value`)}</p>
-                <p className="mt-2 text-sm font-medium text-ss-ink">{t(`home.about.fact${n}.label`)}</p>
+                <p className="ss-display text-2xl font-bold text-ss-blue sm:text-3xl">{n === 3 ? t("home.about.fact3.value", { avg: formatOpenDataNumber(OPEN_DATA.steps2023.meanSaltIntake.value, lang) }) : t(`home.about.fact${n}.value`)}</p>
+                <p className="mt-2 text-sm font-medium text-ss-ink">{n === 3 ? t("home.about.fact3.label", { limit: formatOpenDataNumber(OPEN_DATA.whoSaltLimitGramsPerDay, lang) }) : t(`home.about.fact${n}.label`)}</p>
               </div>
             ))}
           </div>
