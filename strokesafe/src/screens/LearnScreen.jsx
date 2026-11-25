@@ -35,7 +35,7 @@ const SECTIONS = [
 ];
 
 export default function LearnScreen() {
-  const { t } = useLanguage();
+  const { t, lang } = useLanguage();
   const { pathname } = useLocation();
   const [shareMsg, setShareMsg] = useState(null);
 
